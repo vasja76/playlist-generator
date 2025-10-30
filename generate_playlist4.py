@@ -12,9 +12,9 @@ CHANNELS = [
     "ТНТ", "ТНТ +2", "СТС", "СТС +2", "Че!", "Ностальгия",
     "Ю ТВ", "ТНТ4", "Ретро", "VF Comedy", "VF Солдаты", "VF Воронины",
     "VF Универ", "VF Кухня", "VF Michael Jackson", "VF Орел и решка",
-    "StrahTV Ольга HD", "MTV HD", "Europa Plus TV", "ТНТ Music",
+    "StrahTV Ольга HD", "Europa Plus TV", "ТНТ Music",
     "Discovery Channel", "Animal Planet", "Охота и рыбалка",
-    "Red Lips", "Exxxotica HD", "Red TV Russian"
+    "Red Lips", "Exxxotica HD", "Red TV Russian", "МУЗ-ТВ", "MTV Hits"
 ]
 
 # === Проверка существования playlist3 ===
