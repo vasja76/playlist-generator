@@ -1,0 +1,38 @@
+name: Update Playlist4
+
+on:
+  schedule:
+    - cron: "5 0 */3 * *"  # каждые 3 дня в 00:05 UTC
+  workflow_dispatch:       # возможность запуска вручную
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      # --- 1. Checkout репозитория ---
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # --- 2. Установка Python ---
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      # --- 3. Установка зависимостей ---
+      - name: Install dependencies
+        run: pip install requests
+
+      # --- 4. Генерация playlist4 ---
+      - name: Generate playlist4
+        run: python generate_playlist4.py
+
+      # --- 5. Commit и push playlist4 ---
+      - name: Commit and push playlist4
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add playlist4.m3u8
+          git commit -m "Auto-update playlist4" || echo "Nothing to commit"
+          git push || echo "Push failed"
