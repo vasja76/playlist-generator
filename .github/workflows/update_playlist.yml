@@ -2,7 +2,7 @@ name: Update Playlist3
 
 on:
   schedule:
-    - cron: "0 0 */3 * *"  # каждые 3 дня (можно изменить)
+    - cron: "0 0 */3 * *"  # каждые 3 дня
   workflow_dispatch:       # возможность запуска вручную
 
 jobs:
@@ -24,9 +24,10 @@ jobs:
       - name: Run playlist generator
         run: python generate_playlist.py
 
-      - name: Commit and push if changed
+      - name: Commit and push playlist3
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git add playlist3.m3u8
-          git diff --quiet && echo "No changes" || (git commit -m "Auto-update playlist3" && git push)
+          git commit -m "Force update playlist3" || echo "Nothing to commit"
+          git push || echo "Push failed"
