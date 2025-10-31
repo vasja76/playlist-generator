@@ -9,8 +9,8 @@ OUTPUT_FILE = "playlist3.m3u8"
 # --- Выбор источника сервера ---
 # 1 → брать сервер из playlist2
 # 2 → использовать пользовательский домен
-SERVER_SOURCE = 2
-USER_DOMAIN = "akadatel.com"  # если SERVER_SOURCE = 2, заменяем основной домен на этот
+SERVER_SOURCE = 1
+USER_DOMAIN = "megogo.xyz"  # если SERVER_SOURCE = 2, заменяем основной домен на этот
 
 # === Функция для замены основного домена, сохраняя субдомен ===
 def replace_main_domain(url, new_domain):
