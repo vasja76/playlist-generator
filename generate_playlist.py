@@ -10,7 +10,7 @@ OUTPUT_FILE = "playlist3.m3u8"
 # === Режим выбора источника сервера ===
 # 1 = брать из playlist2 (по умолчанию)
 # 2 = задать вручную (например, akadatel.com)
-SERVER_MODE = 2
+SERVER_MODE = 1
 CUSTOM_DOMAIN = "akadatel.com"
 
 # === Скачиваем плейлист1 ===
