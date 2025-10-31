@@ -7,6 +7,12 @@ URL_PLAYLIST1 = "http://a6a00836aefe.goodstreem.org/playlists/uplist/0e3bfa31d65
 URL_PLAYLIST2 = "http://7d910a3da525.goodstreem.org/playlists/uplist/22825bfdcdb7e2ef359c18b30e40a234/playlist.m3u8"
 OUTPUT_FILE = "playlist3.m3u8"
 
+# === Режим выбора источника сервера ===
+# 1 = брать из playlist2 (по умолчанию)
+# 2 = задать вручную (например, akadatel.com)
+SERVER_MODE = 2
+CUSTOM_DOMAIN = "akadatel.com"
+
 # === Скачиваем плейлист1 ===
 print("Downloading playlist1...")
 try:
@@ -18,29 +24,38 @@ except Exception as e:
 
 playlist1_content = r1.text
 
-# === Скачиваем плейлист2 и определяем актуальный сервер ===
-print("Downloading playlist2 to get server...")
-try:
-    r2 = requests.get(URL_PLAYLIST2, timeout=15)
-    r2.raise_for_status()
-except Exception as e:
-    print(f"Error downloading playlist2: {e}")
+# === Определяем новый сервер ===
+if SERVER_MODE == 1:
+    print("Downloading playlist2 to get server...")
+    try:
+        r2 = requests.get(URL_PLAYLIST2, timeout=15)
+        r2.raise_for_status()
+    except Exception as e:
+        print(f"Error downloading playlist2: {e}")
+        exit(1)
+
+    lines2 = r2.text.splitlines()
+    new_server = None
+
+    for line in lines2:
+        if line.startswith("http://") or line.startswith("https://"):
+            parsed = urlparse(line)
+            new_server = f"{parsed.scheme}://{parsed.netloc}/"
+            break
+
+    if not new_server:
+        print("Error: Could not find a valid server in playlist2")
+        exit(1)
+
+    print("New server from playlist2:", new_server)
+
+elif SERVER_MODE == 2:
+    new_server = f"http://{CUSTOM_DOMAIN}/"
+    print("Using custom server:", new_server)
+
+else:
+    print("Error: Invalid SERVER_MODE (must be 1 or 2)")
     exit(1)
-
-lines2 = r2.text.splitlines()
-new_server = None
-
-for line in lines2:
-    if line.startswith("http://") or line.startswith("https://"):
-        parsed = urlparse(line)
-        new_server = f"{parsed.scheme}://{parsed.netloc}/"
-        break
-
-if not new_server:
-    print("Error: Could not find a valid server in playlist2")
-    exit(1)
-
-print("New server from playlist2:", new_server)
 
 # === Определяем старый сервер в плейлисте1 ===
 old_server = None
