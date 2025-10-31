@@ -2,7 +2,7 @@ name: Update Playlist4
 
 on:
   schedule:
- - cron: "55 0 */3 * *"  # каждые 3 дня в 00:55 UTC (~02:55 по Киеву)
+    - cron: "55 0 */3 * *"  # каждые 3 дня в 00:55 UTC (~02:55 по Киеву)
   workflow_dispatch:       # возможность запуска вручную
 
 jobs:
