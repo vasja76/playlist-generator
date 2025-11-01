@@ -47,7 +47,7 @@ CHANNELS = [
     "Club Parody",
     "Club Teens HD",
     "EroLuxe Russian Teens",
-    "Retro SEX HD"
+    "Play-x Retro SEX HD"
 ]
 
 # === Проверка существования playlist5 ===
