@@ -46,9 +46,7 @@ CHANNELS = [
     "1+1",
     "Club Parody",
     "Club Teens HD",
-    "Sky High SEX",
     "EroLuxe Russian Teens",
-    "LIBERTY Эротика",
     "Retro SEX HD"
 ]
 
