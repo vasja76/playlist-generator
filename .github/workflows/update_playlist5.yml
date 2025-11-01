@@ -1,0 +1,33 @@
+name: Update playlist5.m3u8
+
+on:
+  schedule:
+    - cron: "0 0 */3 * *"   # каждые 3 дня в 00:00 UTC
+  workflow_dispatch:        # можно запустить вручную через Actions
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Generate playlist file
+        run: python generate_playlist5.py
+
+      - name: Commit and push updated playlist
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add playlist5.m3u8
+          git commit -m "Auto update playlist5.m3u8"
+          git push
