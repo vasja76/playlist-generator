@@ -8,7 +8,14 @@ OUTPUT_FILE = "playlist4.m3u8"
 
 # === Список нужных каналов ===
 CHANNELS = [
-    "Беларусь 24", "Беларусь 1", "Мега UA", "К1 UA", "К2 UA", "Перший UA", "MTV Hits"
+    "Беларусь 24", "Беларусь 1", "Мега UA", "К1 UA", "К2 UA", "Перший UA",
+    "Первый канал", "Первый канал +2", "Россия 1", "Россия 1 +2",
+    "ТНТ", "ТНТ +2", "СТС", "СТС +2", "Че!", "Ностальгия",
+    "Ю ТВ", "ТНТ4", "Ретро", "VF Comedy", "VF Солдаты", "VF Воронины",
+    "VF Универ", "VF Кухня", "VF Michael Jackson", "VF Орел и решка",
+    "StrahTV Ольга HD", "Europa Plus TV", "ТНТ Music",
+    "Discovery Channel", "Animal Planet", "Охота и рыбалка",
+    "Red Lips", "Exxxotica HD", "Red TV Russian", "МУЗ-ТВ", "MTV Hits"
 ]
 
 # === Проверка существования playlist3 ===
