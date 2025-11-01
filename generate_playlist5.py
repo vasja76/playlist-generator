@@ -9,7 +9,7 @@
 import requests
 
 # 🔧 Укажите здесь URL плейлиста
-PLAYLIST_URL = "https://example.com/playlist.m3u8"
+PLAYLIST_URL = "http://vipl.one/hls/kbasrzi4t3cf/playlist.m3u8"
 
 # Имя сохраняемого файла
 OUTPUT_FILE = "playlist5.m3u8"
