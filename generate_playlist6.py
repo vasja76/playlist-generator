@@ -26,7 +26,6 @@ CHANNELS = [
     "Animal Planet",
     "Da Vinci learning",
     "Discovery",
-    "Discovery HD",
     "National Geographic",
     "Наука 2.0",
     "Техно 24",
@@ -45,9 +44,13 @@ CHANNELS = [
     "К2",
     "1+1",
     "Club Parody",
-    "Club Teens HD",
     "EroLuxe Russian Teens",
-    "Play-x Retro SEX HD"
+    "Play-x Retro SEX HD",
+    "Barely Legal TV",
+    "Club Sweetie Fox",
+    "EroLuxe Cinema",
+    "EroLuxe 60FPS"
+    
 ]
 
 # === Проверка существования playlist5 ===
