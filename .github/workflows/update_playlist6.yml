@@ -34,5 +34,5 @@ jobs:
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git add playlist6.m3u8
-          git commit -m "Auto-update playlist6 (forced)" --allow-empty
-          git push
+          git commit -m "Auto-update playlist6" || echo "Nothing to commit"
+          git push || echo "Push failed"
