@@ -50,9 +50,6 @@ http://vipl.one/hls/kbasrzi4t3cf/298.m3u8
 #EXTINF:0 tvg-id="299" tvg-logo="http://epg.cdntv.online/img/299.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Познавательные", Discovery
 #EXTGRP:Познавательные
 http://vipl.one/hls/kbasrzi4t3cf/299.m3u8
-#EXTINF:0 tvg-id="300" tvg-logo="http://epg.cdntv.online/img/300.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Познавательные", Discovery HD
-#EXTGRP:Познавательные
-http://vipl.one/hls/kbasrzi4t3cf/300.m3u8
 #EXTINF:0 tvg-id="309" tvg-logo="http://epg.cdntv.online/img/309.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Познавательные", National Geographic
 #EXTGRP:Познавательные
 http://vipl.one/hls/kbasrzi4t3cf/309.m3u8
@@ -101,12 +98,21 @@ http://vipl.one/hls/kbasrzi4t3cf/856.m3u8
 #EXTINF:0 tvg-id="1109" tvg-logo="http://epg.cdntv.online/img/1109.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Украина", 1+1
 #EXTGRP:Украина
 http://vipl.one/hls/kbasrzi4t3cf/1109.m3u8
+#EXTINF:0 tvg-id="1125" tvg-logo="http://epg.cdntv.online/img/1125.png" group-title="Взрослые", Barely Legal TV
+#EXTGRP:Взрослые
+http://vipl.one/hls/kbasrzi4t3cf/1125.m3u8
+#EXTINF:0 tvg-id="1128" tvg-logo="http://epg.cdntv.online/img/1128.png" group-title="Взрослые", Club Sweetie Fox
+#EXTGRP:Взрослые
+http://vipl.one/hls/kbasrzi4t3cf/1128.m3u8
 #EXTINF:0 tvg-id="1130" tvg-logo="http://epg.cdntv.online/img/1130.png" group-title="Взрослые", Club Parody
 #EXTGRP:Взрослые
 http://vipl.one/hls/kbasrzi4t3cf/1130.m3u8
-#EXTINF:0 tvg-id="1132" tvg-logo="http://epg.cdntv.online/img/1132.png" group-title="Взрослые", Club Teens HD
+#EXTINF:0 tvg-id="1684" tvg-logo="http://epg.cdntv.online/img/1684.png" group-title="Взрослые", EroLuxe 60FPS
 #EXTGRP:Взрослые
-http://vipl.one/hls/kbasrzi4t3cf/1132.m3u8
+http://vipl.one/hls/kbasrzi4t3cf/1684.m3u8
+#EXTINF:0 tvg-id="1688" tvg-logo="http://epg.cdntv.online/img/1688.png" group-title="Взрослые", EroLuxe Cinema
+#EXTGRP:Взрослые
+http://vipl.one/hls/kbasrzi4t3cf/1688.m3u8
 #EXTINF:0 tvg-id="1698" tvg-logo="http://epg.cdntv.online/img/1698.png" group-title="Взрослые", EroLuxe Russian Teens
 #EXTGRP:Взрослые
 http://vipl.one/hls/kbasrzi4t3cf/1698.m3u8
