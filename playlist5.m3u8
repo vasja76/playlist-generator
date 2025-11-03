@@ -29,9 +29,6 @@ http://vipl.one/hls/kbasrzi4t3cf/10.m3u8
 #EXTINF:0 tvg-id="11" tvg-logo="http://epg.cdntv.online/img/11.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Федеральные", Рен ТВ
 #EXTGRP:Федеральные
 http://vipl.one/hls/kbasrzi4t3cf/11.m3u8
-#EXTINF:0 tvg-id="12" tvg-logo="http://epg.cdntv.online/img/12.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Религиозные", Спас
-#EXTGRP:Религиозные
-http://vipl.one/hls/kbasrzi4t3cf/12.m3u8
 #EXTINF:0 tvg-id="13" tvg-logo="http://epg.cdntv.online/img/13.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Развлекательные", СТС
 #EXTGRP:Развлекательные
 http://vipl.one/hls/kbasrzi4t3cf/13.m3u8
@@ -389,9 +386,6 @@ http://vipl.one/hls/kbasrzi4t3cf/334.m3u8
 #EXTINF:0 tvg-id="335" tvg-logo="http://epg.cdntv.online/img/335.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Познавательные", Красная линия
 #EXTGRP:Познавательные
 http://vipl.one/hls/kbasrzi4t3cf/335.m3u8
-#EXTINF:0 tvg-id="336" tvg-logo="http://epg.cdntv.online/img/336.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Кулинарные", Кухня ТВ
-#EXTGRP:Кулинарные
-http://vipl.one/hls/kbasrzi4t3cf/336.m3u8
 #EXTINF:0 tvg-id="339" tvg-logo="http://epg.cdntv.online/img/339.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Познавательные", Моя Планета
 #EXTGRP:Познавательные
 http://vipl.one/hls/kbasrzi4t3cf/339.m3u8
@@ -539,15 +533,6 @@ http://vipl.one/hls/kbasrzi4t3cf/515.m3u8
 #EXTINF:0 tvg-id="516" tvg-logo="http://epg.cdntv.online/img/516.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Мужские", Дикий
 #EXTGRP:Мужские
 http://vipl.one/hls/kbasrzi4t3cf/516.m3u8
-#EXTINF:0 tvg-id="517" tvg-logo="http://epg.cdntv.online/img/517.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Кулинарные", Food Network
-#EXTGRP:Кулинарные
-http://vipl.one/hls/kbasrzi4t3cf/517.m3u8
-#EXTINF:0 tvg-id="518" tvg-logo="http://epg.cdntv.online/img/518.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Кулинарные", Еда
-#EXTGRP:Кулинарные
-http://vipl.one/hls/kbasrzi4t3cf/518.m3u8
-#EXTINF:0 tvg-id="519" tvg-logo="http://epg.cdntv.online/img/519.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Кулинарные", FoodTime
-#EXTGRP:Кулинарные
-http://vipl.one/hls/kbasrzi4t3cf/519.m3u8
 #EXTINF:0 tvg-id="520" tvg-logo="http://epg.cdntv.online/img/520.png" group-title="Развлекательные", Fashion TV Europe
 #EXTGRP:Развлекательные
 http://vipl.one/hls/kbasrzi4t3cf/520.m3u8
@@ -842,12 +827,6 @@ http://vipl.one/hls/kbasrzi4t3cf/894.m3u8
 #EXTINF:0 tvg-id="897" tvg-logo="http://epg.cdntv.online/img/897.png" group-title="Кинозалы", Маша и Медведь
 #EXTGRP:Кинозалы
 http://vipl.one/hls/kbasrzi4t3cf/897.m3u8
-#EXTINF:0 tvg-id="959" tvg-logo="http://epg.cdntv.online/img/959.png" group-title="Религиозные", МузСоюз
-#EXTGRP:Религиозные
-http://vipl.one/hls/kbasrzi4t3cf/959.m3u8
-#EXTINF:0 tvg-id="966" tvg-logo="http://epg.cdntv.online/img/966.png" group-title="Религиозные", Союз
-#EXTGRP:Религиозные
-http://vipl.one/hls/kbasrzi4t3cf/966.m3u8
 #EXTINF:0 tvg-id="972" tvg-logo="http://epg.cdntv.online/img/972.png" group-title="Украина", Суспільне Одеса
 #EXTGRP:Украина
 http://vipl.one/hls/kbasrzi4t3cf/972.m3u8
@@ -1031,9 +1010,6 @@ http://vipl.one/hls/kbasrzi4t3cf/1409.m3u8
 #EXTINF:0 tvg-id="1410" tvg-logo="http://epg.cdntv.online/img/1410.png" group-title="Новостные", Fox News
 #EXTGRP:Новостные
 http://vipl.one/hls/kbasrzi4t3cf/1410.m3u8
-#EXTINF:0 tvg-id="1412" tvg-logo="http://epg.cdntv.online/img/1412.png" group-title="Саудовская Аравия", Al Sunnah
-#EXTGRP:Саудовская Аравия
-http://vipl.one/hls/kbasrzi4t3cf/1412.m3u8
 #EXTINF:0 tvg-id="1413" tvg-logo="http://epg.cdntv.online/img/1413.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Кинозалы", CineMan Miniseries
 #EXTGRP:Кинозалы
 http://vipl.one/hls/kbasrzi4t3cf/1413.m3u8
