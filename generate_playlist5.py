@@ -1,29 +1,23 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Фильтрация M3U8-плейлиста: удаляем целые блоки каналов по group-title.
-Не меняем содержимое оставшихся блоков.
-Автор: Vasily Alexeev (правка)
+Скрипт для загрузки и очистки m3u8-плейлиста от лишних категорий.
+Автор: Vasily Alexeev
+Дата: 2025-11-02
 """
 
 import re
 import requests
-import os
 
-# === НАСТРОЙКИ ===
+# === 🔧 НАСТРОЙКИ ===
 
-# Источник (если нужно скачивать). Если хочешь брать локальный playlist5.m3u8,
-# просто положи файл рядом и скрипт прочтёт его (см. ниже).
+# URL исходного плейлиста
 PLAYLIST_URL = "http://vipl.one/hls/kbasrzi4t3cf/playlist.m3u8"
 
-# Файлы
-INPUT_FILE = "playlist5.m3u8"   # если локальный файл присутствует, будет использован
-OUTPUT_FILE = "playlist5.m3u8"  # перезаписываем тот же файл
+# Имя сохраняемого файла
+OUTPUT_FILE = "playlist5.m3u8"
 
-# 0 — не удалять по "HD" в имени, 1 — удалять (по желанию)
-REMOVE_HD = 1
-
-# Список категорий group-title, которые нужно удалить (совпадение нечувствительно к регистру)
+# Категории (group-title), которые нужно удалить из плейлиста
 REMOVE_GROUPS = [
     "Детские",
     "Региональные",
@@ -41,116 +35,99 @@ REMOVE_GROUPS = [
     "Польша",
     "Эстония",
     "Латвия",
-    "Литва",
+    "Литва"
 ]
 
-# === ФУНКЦИИ ===
+# Триггер: если 1 — удалять каналы, в названии которых есть "HD"
+REMOVE_HD = 1
 
-def get_playlist_text():
-    """Возвращает текст плейлиста: сначала пытаемся прочесть локальный INPUT_FILE,
-    иначе скачиваем по PLAYLIST_URL."""
-    if os.path.isfile(INPUT_FILE):
-        with open(INPUT_FILE, "r", encoding="utf-8", errors="replace") as f:
-            return f.read()
-    # локального нет — скачиваем
-    resp = requests.get(PLAYLIST_URL, timeout=20)
-    resp.raise_for_status()
-    return resp.text
 
-def should_remove_extinf_line(extinf_line: str) -> bool:
+def download_playlist(url: str) -> str:
+    """Загружает M3U8-плейлист и возвращает его содержимое в виде текста."""
+    print(f"📥 Загружаем плейлист: {url}")
+    response = requests.get(url, timeout=20)
+    response.raise_for_status()
+    print("✅ Плейлист успешно загружен.")
+    return response.text
+
+
+def filter_playlist(content: str) -> str:
     """
-    Решает, нужно ли удалить блок, исходя из строки #EXTINF.
-    Удаляем, если group-title совпадает с REMOVE_GROUPS (частичное/ нечувствительное к регистру)
-    или (опционально) в имени канала есть 'HD' и REMOVE_HD == 1.
+    Удаляет из M3U8-плейлиста все каналы, принадлежащие к категориям REMOVE_GROUPS,
+    а также, при активном REMOVE_HD, каналы с 'HD' в названии.
     """
-    # Найдём значение group-title="..."
-    gm = re.search(r'group-title="([^"]+)"', extinf_line, flags=re.IGNORECASE)
-    if gm:
-        group = gm.group(1).strip().lower()
-        for g in REMOVE_GROUPS:
-            if g.strip().lower() == group:
-                return True
-
-    # Если нет group-title, можно ещё попытаться удалить по ключевым словам в самой строке
-    # (но по умолчанию мы этого не делаем — только explicit group-title).
-    # Проверка на HD в названии (после последней запятой)
-    if REMOVE_HD:
-        m = re.match(r'.*,\s*(.+)$', extinf_line)
-        if m:
-            chname = m.group(1).strip().lower()
-            if "hd" in chname.split():  # слово HD отдельно
-                return True
-            # также проверим вхождение 'hd' в конце/скобках и т.п.
-            if "hd" in chname:
-                return True
-
-    return False
-
-def filter_playlist_text(text: str) -> str:
-    """
-    Парсим плейлист построчно. Каждый блок начинается с #EXTINF и продолжается до
-    следующей строки, начинающейся с #EXTINF (не включая её) — все эти строки считаются частью блока.
-    Если блок помечен на удаление — пропускаем весь блок.
-    Иначе — копируем блок в выходной текст в точности как есть.
-    Также сохраняем любые строки до первого #EXTINF (заголовки).
-    """
-    lines = text.splitlines()
-    out_lines = []
+    lines = content.splitlines()
+    result = []
     i = 0
-    n = len(lines)
 
-    # Сохраняем все строки до первого #EXTINF (обычно #EXTM3U и возможные мета)
-    while i < n and not lines[i].startswith("#EXTINF"):
-        out_lines.append(lines[i])
+    while i < len(lines):
+        line = lines[i]
+
+        # Сохраняем заголовок
+        if i == 0 and line.startswith("#EXTM3U"):
+            result.append(line)
+
+        # Проверяем строки каналов
+        elif line.startswith("#EXTINF"):
+            # Извлекаем категорию (group-title="...")
+            match = re.search(r'group-title="([^"]+)"', line)
+            group = match.group(1) if match else ""
+
+            # Извлекаем имя канала (после запятой)
+            name_match = re.match(r'.*,\s*(.+)$', line)
+            channel_name = name_match.group(1).strip() if name_match else ""
+
+            # Проверяем, нужно ли удалить
+            remove_block = False
+            reason = []
+
+            if group in REMOVE_GROUPS:
+                remove_block = True
+                reason.append(f"group={group}")
+            if REMOVE_HD and "HD" in channel_name.upper():
+                remove_block = True
+                reason.append("HD-name")
+
+            if remove_block:
+                print(f"🗑 Удалён канал: {channel_name} ({', '.join(reason)})")
+                # Пропускаем #EXTINF, #EXTGRP и URL
+                i += 1
+                if i < len(lines) and lines[i].startswith("#EXTGRP"):
+                    i += 1
+                if i < len(lines):
+                    i += 1
+                continue  # не добавляем в result
+
+            # Если категория разрешена — добавляем блок целиком
+            result.append(line)
+            if i + 1 < len(lines) and lines[i + 1].startswith("#EXTGRP"):
+                result.append(lines[i + 1])
+                i += 1
+            if i + 1 < len(lines) and not lines[i + 1].startswith("#EXTINF"):
+                result.append(lines[i + 1])
+
         i += 1
 
-    # Обрабатываем блоки, начинающиеся с #EXTINF
-    while i < n:
-        if not lines[i].startswith("#EXTINF"):
-            # неожиданные строки — просто копируем
-            out_lines.append(lines[i])
-            i += 1
-            continue
+    print("🧹 Плейлист очищен от указанных категорий и HD-каналов (если включено).")
+    return "\n".join(result)
 
-        # Начинается блок
-        block = [lines[i]]
-        j = i + 1
-        # Собираем все последующие строк до следующего #EXTINF или EOF
-        while j < n and not lines[j].startswith("#EXTINF"):
-            block.append(lines[j])
-            j += 1
 
-        extinf_line = block[0]
-        if should_remove_extinf_line(extinf_line):
-            # Пропускаем весь блок (ничего не добавляем)
-            pass
-        else:
-            # Копируем блок без изменений
-            out_lines.extend(block)
+def save_playlist(content: str, filename: str) -> None:
+    """Сохраняет текст в файл."""
+    with open(filename, "w", encoding="utf-8") as f:
+        f.write(content)
+    print(f"💾 Плейлист сохранён как {filename}")
 
-        i = j  # продолжаем с следующего блока
-
-    # Воссоздаём текст с сохранением переводов строки как в оригинале (LF)
-    return "\n".join(out_lines) + ("\n" if text.endswith("\n") else "")
-
-# === MAIN ===
 
 def main():
     try:
-        original = get_playlist_text()
+        text = download_playlist(PLAYLIST_URL)
+        filtered = filter_playlist(text)
+        save_playlist(filtered, OUTPUT_FILE)
+        print("✅ Готово. Плейлист успешно обновлён и очищен.")
     except Exception as e:
-        print("Ошибка при получении плейлиста:", e)
-        return
+        print(f"❌ Ошибка: {e}")
 
-    filtered = filter_playlist_text(original)
-
-    # Записываем результат, перезаписывая OUTPUT_FILE (без архивов)
-    try:
-        with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-            f.write(filtered)
-        print(f"Готово — записан {OUTPUT_FILE}")
-    except Exception as e:
-        print("Ошибка при записи файла:", e)
 
 if __name__ == "__main__":
     main()
