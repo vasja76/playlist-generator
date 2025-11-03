@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Скрипт для загрузки и очистки m3u8-плейлиста от лишних категорий.
+Скрипт для загрузки и фильтрации M3U8-плейлиста.
 Автор: Vasily Alexeev
 Дата: 2025-11-02
 """
@@ -9,15 +9,18 @@
 import re
 import requests
 
-# === 🔧 НАСТРОЙКИ ===
+# === 🔧 Настройки ===
 
-# URL исходного плейлиста
+# URL источника
 PLAYLIST_URL = "http://vipl.one/hls/kbasrzi4t3cf/playlist.m3u8"
 
-# Имя сохраняемого файла
+# Основной файл
 OUTPUT_FILE = "playlist5.m3u8"
 
-# Категории (group-title), которые нужно удалить из плейлиста
+# 1 — удалять каналы с "HD" в названии, 0 — оставлять
+REMOVE_HD = 1
+
+# Категории, которые нужно удалить
 REMOVE_GROUPS = [
     "Детские",
     "Региональные",
@@ -39,77 +42,73 @@ REMOVE_GROUPS = [
 ]
 
 
-def download_playlist(url: str) -> str:
-    """Загружает M3U8-плейлист и возвращает его содержимое в виде текста."""
+# === ⚙️ Функции ===
+
+def download_playlist(url: str) -> list:
+    """Загружает плейлист и возвращает список строк."""
     print(f"📥 Загружаем плейлист: {url}")
     response = requests.get(url, timeout=20)
     response.raise_for_status()
-    print("✅ Плейлист успешно загружен.")
-    return response.text
+    lines = response.text.splitlines()
+    print(f"✅ Плейлист загружен ({len(lines)} строк)")
+    return lines
 
 
-def filter_playlist(content: str) -> str:
-    """
-    Удаляет из M3U8-плейлиста все каналы, принадлежащие к категориям REMOVE_GROUPS.
-    Возвращает очищенный текст плейлиста.
-    """
-    lines = content.splitlines()
-    result = []
+def filter_playlist(lines: list) -> list:
+    """Удаляет ненужные категории и HD-каналы (если REMOVE_HD = 1)."""
+    filtered = []
     i = 0
-
     while i < len(lines):
         line = lines[i]
 
-        # Сохраняем заголовок
         if i == 0 and line.startswith("#EXTM3U"):
-            result.append(line)
+            filtered.append(line)
+            i += 1
+            continue
 
-        # Проверяем строки каналов
-        elif line.startswith("#EXTINF"):
-            # Извлекаем категорию (group-title="...")
-            match = re.search(r'group-title="([^"]+)"', line)
-            group = match.group(1) if match else ""
+        if line.startswith("#EXTINF"):
+            group_match = re.search(r'group-title="([^"]+)"', line)
+            channel_match = re.match(r'.*,\s*(.+)$', line)
+            group = group_match.group(1) if group_match else ""
+            channel = channel_match.group(1).strip() if channel_match else ""
 
-            # Если категория в списке запрещённых — пропускаем этот блок
-            if group in REMOVE_GROUPS:
-                # Пропускаем #EXTINF, #EXTGRP и URL
-                i += 1
-                if i < len(lines) and lines[i].startswith("#EXTGRP"):
-                    i += 1
-                if i < len(lines):
-                    i += 1
-                continue  # не добавляем в result
+            # Удаляем по категории
+            if any(gr.lower() in group.lower() for gr in REMOVE_GROUPS):
+                i += 2
+                continue
 
-            # Если категория разрешена — добавляем блок целиком
-            result.append(line)
-            if i + 1 < len(lines) and lines[i + 1].startswith("#EXTGRP"):
-                result.append(lines[i + 1])
-                i += 1
-            if i + 1 < len(lines) and not lines[i + 1].startswith("#EXTINF"):
-                result.append(lines[i + 1])
+            # Удаляем по слову "HD", если включено
+            if REMOVE_HD and "HD" in channel.upper():
+                i += 2
+                continue
+
+            # Добавляем канал и его URL
+            filtered.append(line)
+            if i + 1 < len(lines):
+                filtered.append(lines[i + 1])
+            i += 2
+            continue
 
         i += 1
 
-    print("🧹 Плейлист очищен от указанных категорий.")
-    return "\n".join(result)
+    print(f"🧹 После фильтрации осталось {len(filtered)} строк")
+    return filtered
 
 
-def save_playlist(content: str, filename: str) -> None:
-    """Сохраняет текст в файл."""
+def save_playlist(lines: list, filename: str):
+    """Сохраняет результат в файл."""
     with open(filename, "w", encoding="utf-8") as f:
-        f.write(content)
-    print(f"💾 Плейлист сохранён как {filename}")
+        f.write("\n".join(lines))
+    print(f"💾 Сохранён обновлённый файл: {filename}")
 
 
-def main():
-    try:
-        text = download_playlist(PLAYLIST_URL)
-        filtered = filter_playlist(text)
-        save_playlist(filtered, OUTPUT_FILE)
-        print("✅ Готово. Плейлист успешно обновлён и очищен.")
-    except Exception as e:
-        print(f"❌ Ошибка: {e}")
-
+# === 🚀 Основной блок ===
 
 if __name__ == "__main__":
-    main()
+    try:
+        raw_lines = download_playlist(PLAYLIST_URL)
+        result = filter_playlist(raw_lines)
+        save_playlist(result, OUTPUT_FILE)
+        print("✅ Готово. Плейлист успешно обновлён.")
+    except Exception as e:
+        print(f"❌ Ошибка: {e}")
