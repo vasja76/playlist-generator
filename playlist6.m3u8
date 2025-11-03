@@ -53,6 +53,9 @@ http://vipl.one/hls/kbasrzi4t3cf/309.m3u8
 #EXTINF:0 tvg-id="343" tvg-logo="http://epg.cdntv.online/img/343.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Познавательные", Наука 2.0
 #EXTGRP:Познавательные
 http://vipl.one/hls/kbasrzi4t3cf/343.m3u8
+#EXTINF:0 tvg-id="370" tvg-logo="http://epg.cdntv.online/img/370.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Познавательные", Nano TV
+#EXTGRP:Познавательные
+http://vipl.one/hls/kbasrzi4t3cf/370.m3u8
 #EXTINF:0 tvg-id="472" tvg-logo="http://epg.cdntv.online/img/472.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Развлекательные", КВН ТВ
 #EXTGRP:Развлекательные
 http://vipl.one/hls/kbasrzi4t3cf/472.m3u8
@@ -86,6 +89,9 @@ http://vipl.one/hls/kbasrzi4t3cf/855.m3u8
 #EXTINF:0 tvg-id="856" tvg-logo="http://epg.cdntv.online/img/856.png" group-title="Украина", К2
 #EXTGRP:Украина
 http://vipl.one/hls/kbasrzi4t3cf/856.m3u8
+#EXTINF:0 tvg-id="996" tvg-logo="http://epg.cdntv.online/img/996.png" group-title="Познавательные", Вопросы и ответы
+#EXTGRP:Познавательные
+http://vipl.one/hls/kbasrzi4t3cf/996.m3u8
 #EXTINF:0 tvg-id="1109" tvg-logo="http://epg.cdntv.online/img/1109.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Украина", 1+1
 #EXTGRP:Украина
 http://vipl.one/hls/kbasrzi4t3cf/1109.m3u8
