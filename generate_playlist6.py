@@ -27,6 +27,8 @@ CHANNELS = [
     "Discovery",
     "National Geographic",
     "Наука 2.0",
+    "Вопросы и ответы",
+    "Nano TV",
     "КВН ТВ",
     "ТНТ4",
     "Первый канал (+2)",
