@@ -42,13 +42,13 @@ CHANNELS = [
     "К1",
     "К2",
     "1+1",
-    "Club Parody",
+    "EroLuxe Massage",
     "EroLuxe Russian Teens",
-    "Play-x Retro SEX HD",
+    "EroLuxe CheerLeader",
     "Barely Legal TV",
     "Club Sweetie Fox",
     "EroLuxe Cinema",
-    "EroLuxe 60FPS"
+    "EroLuxe Schoolgirl"
     
 ]
 
