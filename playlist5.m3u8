@@ -125,9 +125,6 @@ http://vipl.one/hls/kbasrzi4t3cf/79.m3u8
 #EXTINF:0 tvg-id="81" tvg-logo="http://epg.cdntv.online/img/81.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Музыкальные", Музыка Live
 #EXTGRP:Музыкальные
 http://vipl.one/hls/kbasrzi4t3cf/81.m3u8
-#EXTINF:0 tvg-id="84" tvg-logo="http://epg.cdntv.online/img/84.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Музыкальные", О2ТВ
-#EXTGRP:Музыкальные
-http://vipl.one/hls/kbasrzi4t3cf/84.m3u8
 #EXTINF:0 tvg-id="85" tvg-logo="http://epg.cdntv.online/img/85.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Музыкальные", ТНТ Music
 #EXTGRP:Музыкальные
 http://vipl.one/hls/kbasrzi4t3cf/85.m3u8
@@ -275,9 +272,6 @@ http://vipl.one/hls/kbasrzi4t3cf/181.m3u8
 #EXTINF:0 tvg-id="182" tvg-logo="http://epg.cdntv.online/img/182.png" group-title="Плюсовые", ТНТ4 (+4)
 #EXTGRP:Плюсовые
 http://vipl.one/hls/kbasrzi4t3cf/182.m3u8
-#EXTINF:0 tvg-id="183" tvg-logo="http://epg.cdntv.online/img/183.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Развлекательные", Театр
-#EXTGRP:Развлекательные
-http://vipl.one/hls/kbasrzi4t3cf/183.m3u8
 #EXTINF:0 tvg-id="184" tvg-logo="http://epg.cdntv.online/img/184.png" group-title="Плюсовые", Че (+4)
 #EXTGRP:Плюсовые
 http://vipl.one/hls/kbasrzi4t3cf/184.m3u8
@@ -491,9 +485,6 @@ http://vipl.one/hls/kbasrzi4t3cf/490.m3u8
 #EXTINF:0 tvg-id="491" tvg-logo="http://epg.cdntv.online/img/491.png" group-title="Музыкальные", Mezzo
 #EXTGRP:Музыкальные
 http://vipl.one/hls/kbasrzi4t3cf/491.m3u8
-#EXTINF:0 tvg-id="493" tvg-logo="http://epg.cdntv.online/img/493.png" group-title="Музыкальные", Music Box Gold
-#EXTGRP:Музыкальные
-http://vipl.one/hls/kbasrzi4t3cf/493.m3u8
 #EXTINF:0 tvg-id="496" tvg-logo="http://epg.cdntv.online/img/496.png" group-title="Музыкальные", Музыка Первого
 #EXTGRP:Музыкальные
 http://vipl.one/hls/kbasrzi4t3cf/496.m3u8
@@ -806,12 +797,6 @@ http://vipl.one/hls/kbasrzi4t3cf/874.m3u8
 #EXTINF:0 tvg-id="875" tvg-logo="http://epg.cdntv.online/img/875.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Беларусь", СТВ Беларусь
 #EXTGRP:Беларусь
 http://vipl.one/hls/kbasrzi4t3cf/875.m3u8
-#EXTINF:0 tvg-id="878" tvg-logo="http://epg.cdntv.online/img/878.png" group-title="Кинозалы", kino 1
-#EXTGRP:Кинозалы
-http://vipl.one/hls/kbasrzi4t3cf/878.m3u8
-#EXTINF:0 tvg-id="879" tvg-logo="http://epg.cdntv.online/img/879.png" group-title="Кинозалы", KINO 2
-#EXTGRP:Кинозалы
-http://vipl.one/hls/kbasrzi4t3cf/879.m3u8
 #EXTINF:0 tvg-id="883" tvg-logo="http://epg.cdntv.online/img/883.png" group-title="Кинозалы", Кино 1 INT
 #EXTGRP:Кинозалы
 http://vipl.one/hls/kbasrzi4t3cf/883.m3u8
@@ -1646,3 +1631,6 @@ http://vipl.one/hls/kbasrzi4t3cf/2212.m3u8
 #EXTINF:0 tvg-id="2214" tvg-logo="http://epg.cdntv.online/img/2214.png" group-title="Кинозалы", CineMan CCCP
 #EXTGRP:Кинозалы
 http://vipl.one/hls/kbasrzi4t3cf/2214.m3u8
+#EXTINF:0 tvg-id="2282" tvg-logo="http://epg.cdntv.online/img/2282.png" group-title="Кинозалы", TV4 SD
+#EXTGRP:Кинозалы
+http://vipl.one/hls/kbasrzi4t3cf/2282.m3u8
