@@ -353,6 +353,9 @@ http://vipl.one/hls/kbasrzi4t3cf/317.m3u8
 #EXTINF:0 tvg-id="318" tvg-logo="http://epg.cdntv.online/img/318.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Познавательные", Viju History
 #EXTGRP:Познавательные
 http://vipl.one/hls/kbasrzi4t3cf/318.m3u8
+#EXTINF:0 tvg-id="319" tvg-logo="http://epg.cdntv.online/img/319.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Познавательные", Viju Nature
+#EXTGRP:Познавательные
+http://vipl.one/hls/kbasrzi4t3cf/319.m3u8
 #EXTINF:0 tvg-id="322" tvg-logo="http://epg.cdntv.online/img/322.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Познавательные", Бобёр
 #EXTGRP:Познавательные
 http://vipl.one/hls/kbasrzi4t3cf/322.m3u8
@@ -1634,3 +1637,12 @@ http://vipl.one/hls/kbasrzi4t3cf/2214.m3u8
 #EXTINF:0 tvg-id="2282" tvg-logo="http://epg.cdntv.online/img/2282.png" group-title="Кинозалы", TV4 SD
 #EXTGRP:Кинозалы
 http://vipl.one/hls/kbasrzi4t3cf/2282.m3u8
+#EXTINF:0 tvg-id="2291" tvg-logo="http://epg.cdntv.online/img/2291.png" group-title="Кино", КИНЕКО
+#EXTGRP:Кино
+http://vipl.one/hls/kbasrzi4t3cf/2291.m3u8
+#EXTINF:0 tvg-id="2292" tvg-logo="http://epg.cdntv.online/img/2292.png" group-title="Новостные", ОСН
+#EXTGRP:Новостные
+http://vipl.one/hls/kbasrzi4t3cf/2292.m3u8
+#EXTINF:0 tvg-id="2295" tvg-logo="http://epg.cdntv.online/img/2295.png" group-title="Музыкальные", ММТВ
+#EXTGRP:Музыкальные
+http://vipl.one/hls/kbasrzi4t3cf/2295.m3u8
