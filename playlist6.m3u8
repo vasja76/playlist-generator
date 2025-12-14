@@ -83,6 +83,9 @@ http://vipl.one/hls/kbasrzi4t3cf/726.m3u8
 #EXTINF:0 tvg-id="770" tvg-logo="http://epg.cdntv.online/img/770.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Беларусь", Беларусь 1
 #EXTGRP:Беларусь
 http://vipl.one/hls/kbasrzi4t3cf/770.m3u8
+#EXTINF:0 tvg-id="785" tvg-logo="http://epg.cdntv.online/img/785.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Украина", Интер
+#EXTGRP:Украина
+http://vipl.one/hls/kbasrzi4t3cf/785.m3u8
 #EXTINF:0 tvg-id="855" tvg-logo="http://epg.cdntv.online/img/855.png" group-title="Украина", К1
 #EXTGRP:Украина
 http://vipl.one/hls/kbasrzi4t3cf/855.m3u8
@@ -92,9 +95,6 @@ http://vipl.one/hls/kbasrzi4t3cf/856.m3u8
 #EXTINF:0 tvg-id="996" tvg-logo="http://epg.cdntv.online/img/996.png" group-title="Познавательные", Вопросы и ответы
 #EXTGRP:Познавательные
 http://vipl.one/hls/kbasrzi4t3cf/996.m3u8
-#EXTINF:0 tvg-id="1109" tvg-logo="http://epg.cdntv.online/img/1109.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Украина", 1+1
-#EXTGRP:Украина
-http://vipl.one/hls/kbasrzi4t3cf/1109.m3u8
 #EXTINF:0 tvg-id="1125" tvg-logo="http://epg.cdntv.online/img/1125.png" group-title="Взрослые", Barely Legal TV
 #EXTGRP:Взрослые
 http://vipl.one/hls/kbasrzi4t3cf/1125.m3u8
@@ -104,9 +104,6 @@ http://vipl.one/hls/kbasrzi4t3cf/1128.m3u8
 #EXTINF:0 tvg-id="1688" tvg-logo="http://epg.cdntv.online/img/1688.png" group-title="Взрослые", EroLuxe Cinema
 #EXTGRP:Взрослые
 http://vipl.one/hls/kbasrzi4t3cf/1688.m3u8
-#EXTINF:0 tvg-id="1696" tvg-logo="http://epg.cdntv.online/img/1696.png" group-title="Взрослые", EroLuxe Massage
-#EXTGRP:Взрослые
-http://vipl.one/hls/kbasrzi4t3cf/1696.m3u8
 #EXTINF:0 tvg-id="1698" tvg-logo="http://epg.cdntv.online/img/1698.png" group-title="Взрослые", EroLuxe Russian Teens
 #EXTGRP:Взрослые
 http://vipl.one/hls/kbasrzi4t3cf/1698.m3u8
