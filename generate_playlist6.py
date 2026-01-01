@@ -36,19 +36,15 @@ CHANNELS = [
     "СТС (+2)",
     "ТНТ (+2)",
     "ТНТ4 (+2)",
+    "Че (+2)",
     "Беларусь 1",
     "Русская ночь",
     "Беларусь 1",
     "К1",
     "К2",
     "Интер",
-    "EroLuxe Russian Teens",
-    "EroLuxe CheerLeader",
-    "Barely Legal TV",
-    "Club Sweetie Fox",
     "EroLuxe Cinema",
-    "EroLuxe Schoolgirl"
-    
+        
 ]
 
 # === Проверка существования playlist5 ===
