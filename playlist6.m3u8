@@ -77,6 +77,9 @@ http://vipl.one/hls/kbasrzi4t3cf/680.m3u8
 #EXTINF:0 tvg-id="682" tvg-logo="http://epg.cdntv.online/img/682.png" group-title="Плюсовые", ТНТ4 (+2)
 #EXTGRP:Плюсовые
 http://vipl.one/hls/kbasrzi4t3cf/682.m3u8
+#EXTINF:0 tvg-id="688" tvg-logo="http://epg.cdntv.online/img/688.png" group-title="Плюсовые", Че (+2)
+#EXTGRP:Плюсовые
+http://vipl.one/hls/kbasrzi4t3cf/688.m3u8
 #EXTINF:0 tvg-id="726" tvg-logo="http://epg.cdntv.online/img/726.png" group-title="Взрослые", Русская ночь
 #EXTGRP:Взрослые
 http://vipl.one/hls/kbasrzi4t3cf/726.m3u8
@@ -95,21 +98,6 @@ http://vipl.one/hls/kbasrzi4t3cf/856.m3u8
 #EXTINF:0 tvg-id="996" tvg-logo="http://epg.cdntv.online/img/996.png" group-title="Познавательные", Вопросы и ответы
 #EXTGRP:Познавательные
 http://vipl.one/hls/kbasrzi4t3cf/996.m3u8
-#EXTINF:0 tvg-id="1125" tvg-logo="http://epg.cdntv.online/img/1125.png" group-title="Взрослые", Barely Legal TV
-#EXTGRP:Взрослые
-http://vipl.one/hls/kbasrzi4t3cf/1125.m3u8
-#EXTINF:0 tvg-id="1128" tvg-logo="http://epg.cdntv.online/img/1128.png" group-title="Взрослые", Club Sweetie Fox
-#EXTGRP:Взрослые
-http://vipl.one/hls/kbasrzi4t3cf/1128.m3u8
 #EXTINF:0 tvg-id="1688" tvg-logo="http://epg.cdntv.online/img/1688.png" group-title="Взрослые", EroLuxe Cinema
 #EXTGRP:Взрослые
 http://vipl.one/hls/kbasrzi4t3cf/1688.m3u8
-#EXTINF:0 tvg-id="1698" tvg-logo="http://epg.cdntv.online/img/1698.png" group-title="Взрослые", EroLuxe Russian Teens
-#EXTGRP:Взрослые
-http://vipl.one/hls/kbasrzi4t3cf/1698.m3u8
-#EXTINF:0 tvg-id="1711" tvg-logo="http://epg.cdntv.online/img/1711.png" group-title="Взрослые", EroLuxe CheerLeader
-#EXTGRP:Взрослые
-http://vipl.one/hls/kbasrzi4t3cf/1711.m3u8
-#EXTINF:0 tvg-id="1722" tvg-logo="http://epg.cdntv.online/img/1722.png" group-title="Взрослые", EroLuxe Schoolgirl
-#EXTGRP:Взрослые
-http://vipl.one/hls/kbasrzi4t3cf/1722.m3u8
