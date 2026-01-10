@@ -152,7 +152,7 @@ http://vipl.one/hls/kbasrzi4t3cf/97.m3u8
 #EXTINF:0 tvg-id="99" tvg-logo="http://epg.cdntv.online/img/99.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Кино", .Sci-Fi
 #EXTGRP:Кино
 http://vipl.one/hls/kbasrzi4t3cf/99.m3u8
-#EXTINF:0 tvg-id="100" tvg-logo="http://epg.cdntv.online/img/100.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Кино", TV XXI
+#EXTINF:0 tvg-id="100" tvg-logo="http://epg.cdntv.online/img/100.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Кино", ТВ 21
 #EXTGRP:Кино
 http://vipl.one/hls/kbasrzi4t3cf/100.m3u8
 #EXTINF:0 tvg-id="101" tvg-logo="http://epg.cdntv.online/img/101.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Кино", Viju TV1000 Action
@@ -335,6 +335,9 @@ http://vipl.one/hls/kbasrzi4t3cf/298.m3u8
 #EXTINF:0 tvg-id="299" tvg-logo="http://epg.cdntv.online/img/299.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Познавательные", Discovery
 #EXTGRP:Познавательные
 http://vipl.one/hls/kbasrzi4t3cf/299.m3u8
+#EXTINF:0 tvg-id="305" tvg-logo="http://epg.cdntv.online/img/305.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Познавательные", ТОЧКА.РФ
+#EXTGRP:Познавательные
+http://vipl.one/hls/kbasrzi4t3cf/305.m3u8
 #EXTINF:0 tvg-id="306" tvg-logo="http://epg.cdntv.online/img/306.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Познавательные", ID Investigation Discovery
 #EXTGRP:Познавательные
 http://vipl.one/hls/kbasrzi4t3cf/306.m3u8
@@ -782,9 +785,6 @@ http://vipl.one/hls/kbasrzi4t3cf/849.m3u8
 #EXTINF:0 tvg-id="853" tvg-logo="http://epg.cdntv.online/img/853.png" group-title="Украина", Film.Ua Drama
 #EXTGRP:Украина
 http://vipl.one/hls/kbasrzi4t3cf/853.m3u8
-#EXTINF:0 tvg-id="855" tvg-logo="http://epg.cdntv.online/img/855.png" group-title="Украина", К1
-#EXTGRP:Украина
-http://vipl.one/hls/kbasrzi4t3cf/855.m3u8
 #EXTINF:0 tvg-id="856" tvg-logo="http://epg.cdntv.online/img/856.png" group-title="Украина", К2
 #EXTGRP:Украина
 http://vipl.one/hls/kbasrzi4t3cf/856.m3u8
@@ -1025,9 +1025,6 @@ http://vipl.one/hls/kbasrzi4t3cf/1486.m3u8
 #EXTINF:0 tvg-id="1490" tvg-logo="http://epg.cdntv.online/img/1490.png" group-title="Кино", Киносерия
 #EXTGRP:Кино
 http://vipl.one/hls/kbasrzi4t3cf/1490.m3u8
-#EXTINF:0 tvg-id="1495" tvg-logo="http://epg.cdntv.online/img/1495.png" group-title="Украина", Ukraine World News
-#EXTGRP:Украина
-http://vipl.one/hls/kbasrzi4t3cf/1495.m3u8
 #EXTINF:0 tvg-id="1506" tvg-logo="http://epg.cdntv.online/img/1506.png" group-title="Новостные", РТР-Планета
 #EXTGRP:Новостные
 http://vipl.one/hls/kbasrzi4t3cf/1506.m3u8
@@ -1610,9 +1607,6 @@ http://vipl.one/hls/kbasrzi4t3cf/2070.m3u8
 #EXTINF:0 tvg-id="2072" tvg-logo="http://epg.cdntv.online/img/2072.png" group-title="Кинозалы", МУЛЬТВЕРСИЯ
 #EXTGRP:Кинозалы
 http://vipl.one/hls/kbasrzi4t3cf/2072.m3u8
-#EXTINF:0 tvg-id="2073" tvg-logo="http://epg.cdntv.online/img/2073.png" group-title="Украина", ECO TV
-#EXTGRP:Украина
-http://vipl.one/hls/kbasrzi4t3cf/2073.m3u8
 #EXTINF:0 tvg-id="2192" tvg-logo="http://epg.cdntv.online/img/2192.png" group-title="Беларусь", БелМуз ТВ
 #EXTGRP:Беларусь
 http://vipl.one/hls/kbasrzi4t3cf/2192.m3u8
