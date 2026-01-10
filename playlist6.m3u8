@@ -89,9 +89,6 @@ http://vipl.one/hls/kbasrzi4t3cf/770.m3u8
 #EXTINF:0 tvg-id="785" tvg-logo="http://epg.cdntv.online/img/785.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Украина", Интер
 #EXTGRP:Украина
 http://vipl.one/hls/kbasrzi4t3cf/785.m3u8
-#EXTINF:0 tvg-id="855" tvg-logo="http://epg.cdntv.online/img/855.png" group-title="Украина", К1
-#EXTGRP:Украина
-http://vipl.one/hls/kbasrzi4t3cf/855.m3u8
 #EXTINF:0 tvg-id="856" tvg-logo="http://epg.cdntv.online/img/856.png" group-title="Украина", К2
 #EXTGRP:Украина
 http://vipl.one/hls/kbasrzi4t3cf/856.m3u8
