@@ -650,7 +650,7 @@ http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/201/index.m3u8
 #EXTINF:0 tvg-rec="3",Viju+ Megahit HD orig
 #EXTGRP:Кино
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/5081/index.m3u8
-#EXTINF:0 tvg-rec="3",Epic Drama
+#EXTINF:0 tvg-rec="3",Epic Drama HD
 #EXTGRP:Кино
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/1048/index.m3u8
 #EXTINF:0 tvg-rec="3",День Победы HD
@@ -755,9 +755,6 @@ http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/1001/index.m3u8
 #EXTINF:0 tvg-rec="3",FilmBox
 #EXTGRP:Кино
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/1071/index.m3u8
-#EXTINF:0 tvg-rec="3",Дорама
-#EXTGRP:Кино
-http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/1066/index.m3u8
 #EXTINF:0 tvg-rec="7",Мир Сериала
 #EXTGRP:Кино
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/856/index.m3u8
@@ -3116,7 +3113,7 @@ http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/1023/index.m3u8
 #EXTINF:0 tvg-rec="3",Київ UA
 #EXTGRP:Украина | Українські
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/1045/index.m3u8
-#EXTINF:0 tvg-rec="3",8 Канал UA HD
+#EXTINF:0 tvg-rec="3",8 Канал HD UA
 #EXTGRP:Украина | Українські
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/1046/index.m3u8
 #EXTINF:0 tvg-rec="3",ТВА (Чернівці) UA
@@ -3125,9 +3122,6 @@ http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/1072/index.m3u8
 #EXTINF:0 tvg-rec="3",24 Канал HD UA
 #EXTGRP:Украина | Українські
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/1063/index.m3u8
-#EXTINF:0 tvg-rec="3",4 Канал HD UA
-#EXTGRP:Украина | Українські
-http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/1039/index.m3u8
 #EXTINF:0 tvg-rec="3",Тернопіль 1 UA
 #EXTGRP:Украина | Українські
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/5041/index.m3u8
