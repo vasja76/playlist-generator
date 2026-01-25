@@ -1052,7 +1052,7 @@ http://vipl.one/hls/kbasrzi4t3cf/1559.m3u8
 #EXTINF:0 tvg-id="1560" tvg-logo="http://epg.cdntv.online/img/1560.png" group-title="Кинозалы", Clarity4K Приключения
 #EXTGRP:Кинозалы
 http://vipl.one/hls/kbasrzi4t3cf/1560.m3u8
-#EXTINF:0 tvg-id="1561" tvg-logo="http://epg.cdntv.online/img/1561.png" group-title="Кинозалы", Clarity4K Ужасы VHS
+#EXTINF:0 tvg-id="1561" tvg-logo="http://epg.cdntv.online/img/1561.png" group-title="Кинозалы", Clarity4K Ужасы
 #EXTGRP:Кинозалы
 http://vipl.one/hls/kbasrzi4t3cf/1561.m3u8
 #EXTINF:0 tvg-id="1562" tvg-logo="http://epg.cdntv.online/img/1562.png" group-title="Кинозалы", Clarity4K Фантастика
@@ -1082,7 +1082,7 @@ http://vipl.one/hls/kbasrzi4t3cf/1569.m3u8
 #EXTINF:0 tvg-id="1570" tvg-logo="http://epg.cdntv.online/img/1570.png" group-title="Кинозалы", Clarity4K КосмоМир
 #EXTGRP:Кинозалы
 http://vipl.one/hls/kbasrzi4t3cf/1570.m3u8
-#EXTINF:0 tvg-id="1571" tvg-logo="http://epg.cdntv.online/img/1571.png" group-title="Кинозалы", Clarity4K Ужасы
+#EXTINF:0 tvg-id="1571" tvg-logo="http://epg.cdntv.online/img/1571.png" group-title="Кинозалы", Clarity4K Ужасы  VHS
 #EXTGRP:Кинозалы
 http://vipl.one/hls/kbasrzi4t3cf/1571.m3u8
 #EXTINF:0 tvg-id="1572" tvg-logo="http://epg.cdntv.online/img/1572.png" group-title="Кинозалы", Clarity4k КиноФраншизы
@@ -1238,7 +1238,7 @@ http://vipl.one/hls/kbasrzi4t3cf/1679.m3u8
 #EXTINF:0 tvg-id="1681" tvg-logo="http://epg.cdntv.online/img/1681.png" group-title="Кинозалы", CineMan Air Crash
 #EXTGRP:Кинозалы
 http://vipl.one/hls/kbasrzi4t3cf/1681.m3u8
-#EXTINF:0 tvg-id="1682" tvg-logo="http://epg.cdntv.online/img/1682.png" group-title="Кинозалы", CineMan CCCP 4K
+#EXTINF:0 tvg-id="1682" tvg-logo="http://epg.cdntv.online/img/1682.png" group-title="Кинозалы", CineMan СССР 4К
 #EXTGRP:Кинозалы
 http://vipl.one/hls/kbasrzi4t3cf/1682.m3u8
 #EXTINF:0 tvg-id="1683" tvg-logo="http://epg.cdntv.online/img/1683.png" group-title="Развлекательные", Живи Активно
@@ -1625,12 +1625,9 @@ http://vipl.one/hls/kbasrzi4t3cf/2211.m3u8
 #EXTINF:0 tvg-id="2212" tvg-logo="http://epg.cdntv.online/img/2212.png" group-title="Кинозалы", Clarity4K Gamefilm
 #EXTGRP:Кинозалы
 http://vipl.one/hls/kbasrzi4t3cf/2212.m3u8
-#EXTINF:0 tvg-id="2214" tvg-logo="http://epg.cdntv.online/img/2214.png" group-title="Кинозалы", CineMan CCCP
+#EXTINF:0 tvg-id="2214" tvg-logo="http://epg.cdntv.online/img/2214.png" group-title="Кинозалы", CineMan СССР
 #EXTGRP:Кинозалы
 http://vipl.one/hls/kbasrzi4t3cf/2214.m3u8
-#EXTINF:0 tvg-id="2282" tvg-logo="http://epg.cdntv.online/img/2282.png" group-title="Кинозалы", TV4 SD
-#EXTGRP:Кинозалы
-http://vipl.one/hls/kbasrzi4t3cf/2282.m3u8
 #EXTINF:0 tvg-id="2291" tvg-logo="http://epg.cdntv.online/img/2291.png" group-title="Кино", КИНЕКО
 #EXTGRP:Кино
 http://vipl.one/hls/kbasrzi4t3cf/2291.m3u8
@@ -1640,3 +1637,9 @@ http://vipl.one/hls/kbasrzi4t3cf/2292.m3u8
 #EXTINF:0 tvg-id="2295" tvg-logo="http://epg.cdntv.online/img/2295.png" group-title="Музыкальные", ММТВ
 #EXTGRP:Музыкальные
 http://vipl.one/hls/kbasrzi4t3cf/2295.m3u8
+#EXTINF:0 tvg-id="2297" tvg-logo="http://epg.cdntv.online/img/2297.png" group-title="Кинозалы", CineMan OLD 4K
+#EXTGRP:Кинозалы
+http://vipl.one/hls/kbasrzi4t3cf/2297.m3u8
+#EXTINF:0 tvg-id="2298" tvg-logo="http://epg.cdntv.online/img/2298.png" group-title="Кинозалы", CineMan расследование авиакатастроф
+#EXTGRP:Кинозалы
+http://vipl.one/hls/kbasrzi4t3cf/2298.m3u8
