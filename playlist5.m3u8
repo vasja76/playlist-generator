@@ -119,13 +119,10 @@ http://vipl.one/hls/kbasrzi4t3cf/77.m3u8
 #EXTINF:0 tvg-id="78" tvg-logo="http://epg.cdntv.online/img/78.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Музыкальные", Song TV Россия
 #EXTGRP:Музыкальные
 http://vipl.one/hls/kbasrzi4t3cf/78.m3u8
-#EXTINF:0 tvg-id="79" tvg-logo="http://epg.cdntv.online/img/79.png" group-title="Музыкальные", MTV 80s
-#EXTGRP:Музыкальные
-http://vipl.one/hls/kbasrzi4t3cf/79.m3u8
 #EXTINF:0 tvg-id="81" tvg-logo="http://epg.cdntv.online/img/81.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Музыкальные", Музыка Live
 #EXTGRP:Музыкальные
 http://vipl.one/hls/kbasrzi4t3cf/81.m3u8
-#EXTINF:0 tvg-id="85" tvg-logo="http://epg.cdntv.online/img/85.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Музыкальные", ТНТ Music
+#EXTINF:0 tvg-id="85" tvg-logo="http://epg.cdntv.online/img/85.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Музыкальные", FON Music
 #EXTGRP:Музыкальные
 http://vipl.one/hls/kbasrzi4t3cf/85.m3u8
 #EXTINF:0 tvg-id="86" tvg-logo="http://epg.cdntv.online/img/86.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Музыкальные", Шансон-TB
@@ -731,9 +728,6 @@ http://vipl.one/hls/kbasrzi4t3cf/744.m3u8
 #EXTINF:0 tvg-id="755" tvg-logo="http://epg.cdntv.online/img/755.png" group-title="Украина", Рада
 #EXTGRP:Украина
 http://vipl.one/hls/kbasrzi4t3cf/755.m3u8
-#EXTINF:0 tvg-id="758" tvg-logo="http://epg.cdntv.online/img/758.png" group-title="Украина", Бигуди
-#EXTGRP:Украина
-http://vipl.one/hls/kbasrzi4t3cf/758.m3u8
 #EXTINF:0 tvg-id="759" tvg-logo="http://epg.cdntv.online/img/759.png" group-title="Украина", ПЕРШИЙ
 #EXTGRP:Украина
 http://vipl.one/hls/kbasrzi4t3cf/759.m3u8
@@ -785,9 +779,6 @@ http://vipl.one/hls/kbasrzi4t3cf/849.m3u8
 #EXTINF:0 tvg-id="853" tvg-logo="http://epg.cdntv.online/img/853.png" group-title="Украина", Film.Ua Drama
 #EXTGRP:Украина
 http://vipl.one/hls/kbasrzi4t3cf/853.m3u8
-#EXTINF:0 tvg-id="856" tvg-logo="http://epg.cdntv.online/img/856.png" group-title="Украина", К2
-#EXTGRP:Украина
-http://vipl.one/hls/kbasrzi4t3cf/856.m3u8
 #EXTINF:0 tvg-id="871" tvg-logo="http://epg.cdntv.online/img/871.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Беларусь", ОНТ
 #EXTGRP:Беларусь
 http://vipl.one/hls/kbasrzi4t3cf/871.m3u8
@@ -818,9 +809,6 @@ http://vipl.one/hls/kbasrzi4t3cf/897.m3u8
 #EXTINF:0 tvg-id="972" tvg-logo="http://epg.cdntv.online/img/972.png" group-title="Украина", Суспільне Одеса
 #EXTGRP:Украина
 http://vipl.one/hls/kbasrzi4t3cf/972.m3u8
-#EXTINF:0 tvg-id="976" tvg-logo="http://epg.cdntv.online/img/976.png" group-title="Украина", Плюс Плюс
-#EXTGRP:Украина
-http://vipl.one/hls/kbasrzi4t3cf/976.m3u8
 #EXTINF:0 tvg-id="985" tvg-logo="http://epg.cdntv.online/img/985.png" group-title="Новостные", France 24
 #EXTGRP:Новостные
 http://vipl.one/hls/kbasrzi4t3cf/985.m3u8
