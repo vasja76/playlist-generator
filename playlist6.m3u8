@@ -26,9 +26,6 @@ http://vipl.one/hls/kbasrzi4t3cf/21.m3u8
 #EXTINF:0 tvg-id="67" tvg-logo="http://epg.cdntv.online/img/67.png" group-title="Музыкальные", Europa Plus
 #EXTGRP:Музыкальные
 http://vipl.one/hls/kbasrzi4t3cf/67.m3u8
-#EXTINF:0 tvg-id="85" tvg-logo="http://epg.cdntv.online/img/85.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Музыкальные", ТНТ Music
-#EXTGRP:Музыкальные
-http://vipl.one/hls/kbasrzi4t3cf/85.m3u8
 #EXTINF:0 tvg-id="139" tvg-logo="http://epg.cdntv.online/img/139.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Кино", Советское кино
 #EXTGRP:Кино
 http://vipl.one/hls/kbasrzi4t3cf/139.m3u8
@@ -89,9 +86,6 @@ http://vipl.one/hls/kbasrzi4t3cf/770.m3u8
 #EXTINF:0 tvg-id="785" tvg-logo="http://epg.cdntv.online/img/785.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Украина", Интер
 #EXTGRP:Украина
 http://vipl.one/hls/kbasrzi4t3cf/785.m3u8
-#EXTINF:0 tvg-id="856" tvg-logo="http://epg.cdntv.online/img/856.png" group-title="Украина", К2
-#EXTGRP:Украина
-http://vipl.one/hls/kbasrzi4t3cf/856.m3u8
 #EXTINF:0 tvg-id="996" tvg-logo="http://epg.cdntv.online/img/996.png" group-title="Познавательные", Вопросы и ответы
 #EXTGRP:Познавательные
 http://vipl.one/hls/kbasrzi4t3cf/996.m3u8
