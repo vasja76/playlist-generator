@@ -15,7 +15,7 @@ CHANNELS = [
     "VF Универ", "VF Кухня", "VF Michael Jackson", "VF Орел и решка",
     "StrahTV Ольга HD", "Europa Plus TV", "ТНТ Music",
     "Discovery Channel", "Animal Planet", "Охота и рыбалка",
-    "Red Lips", "Exxxotica HD", "Red TV Russian", "МУЗ-ТВ", "MTV Hits"
+    "Red Lips", "МУЗ-ТВ", "MTV Hits"
 ]
 
 # === Проверка существования playlist3 ===
