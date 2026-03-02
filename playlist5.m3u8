@@ -1349,9 +1349,6 @@ http://vipl.one/hls/kbasrzi4t3cf/1722.m3u8
 #EXTINF:0 tvg-id="1723" tvg-logo="http://epg.cdntv.online/img/1723.png" group-title="Взрослые", EroLuxe Asian
 #EXTGRP:Взрослые
 http://vipl.one/hls/kbasrzi4t3cf/1723.m3u8
-#EXTINF:0 tvg-id="1750" tvg-logo="http://epg.cdntv.online/img/1750.png" group-title="Кинозалы", Teve 2
-#EXTGRP:Кинозалы
-http://vipl.one/hls/kbasrzi4t3cf/1750.m3u8
 #EXTINF:0 tvg-id="1946" tvg-logo="http://epg.cdntv.online/img/1946.png" group-title="Беларусь", Первый информационный
 #EXTGRP:Беларусь
 http://vipl.one/hls/kbasrzi4t3cf/1946.m3u8
@@ -1631,3 +1628,6 @@ http://vipl.one/hls/kbasrzi4t3cf/2297.m3u8
 #EXTINF:0 tvg-id="2298" tvg-logo="http://epg.cdntv.online/img/2298.png" group-title="Кинозалы", CineMan расследование авиакатастроф
 #EXTGRP:Кинозалы
 http://vipl.one/hls/kbasrzi4t3cf/2298.m3u8
+#EXTINF:0 tvg-id="2300" tvg-logo="http://epg.cdntv.online/img/2300.png" group-title="Кинозалы", CineMan Дубляж СССР
+#EXTGRP:Кинозалы
+http://vipl.one/hls/kbasrzi4t3cf/2300.m3u8
