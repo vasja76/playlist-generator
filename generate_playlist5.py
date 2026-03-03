@@ -12,7 +12,7 @@ import requests
 # === 🔧 НАСТРОЙКИ ===
 
 # URL исходного плейлиста
-PLAYLIST_URL = "http://vipl.one/hls/d3zwhr58b7mv/playlist.m3u8"
+PLAYLIST_URL = "https://vipl.one/hls/d3zwhr58b7mv/playlist.m3u8"
 
 # Имя сохраняемого файла
 OUTPUT_FILE = "playlist5.m3u8"
