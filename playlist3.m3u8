@@ -1,4 +1,16 @@
 #EXTM3U
+#EXTINF:0 tvg-rec="0",Первый канал UHD
+#EXTGRP:Общие
+http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/19241/index.m3u8
+#EXTINF:0 tvg-rec="0",НТВ UHD
+#EXTGRP:Общие
+http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/19405/index.m3u8
+#EXTINF:0 tvg-rec="0",РЕН UHD
+#EXTGRP:Общие
+http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/19404/index.m3u8
+#EXTINF:0 tvg-rec="0",Россия 1 UHD
+#EXTGRP:Общие
+http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/19242/index.m3u8
 #EXTINF:0 tvg-rec="7",Первый канал FHD
 #EXTGRP:Общие
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/2402/index.m3u8
@@ -92,6 +104,9 @@ http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/6040/index.m3u8
 #EXTINF:0 tvg-rec="0",Пятый канал +8
 #EXTGRP:Общие
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/6054/index.m3u8
+#EXTINF:0 tvg-rec="0",ТНТ UHD
+#EXTGRP:Общие
+http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/19238/index.m3u8
 #EXTINF:0 tvg-rec="3",ТНТ FHD
 #EXTGRP:Общие
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/2417/index.m3u8
