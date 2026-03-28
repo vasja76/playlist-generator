@@ -7,36 +7,34 @@ import requests
 import urllib3
 from urllib.parse import urlparse
 
-# Отключаем предупреждения об отсутствии SSL-сертификата (чтобы не спамить в логах)
+# Отключаем предупреждения об отсутствии SSL-сертификата
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # =========================================================
-# НАСТРОЙКИ (Ваши реальные данные)
+# 🔧 НАСТРОЙКИ
 # =========================================================
 
-# Основной плейлист (отсюда берём каналы)
+# Откуда берем список каналов
 URL_PLAYLIST1 = "http://a6a00836aefe.goodstreem.org/playlists/uplist/0e3bfa31d659f835f335f10165836f6d/playlist.m3u8"
 
-# Донор серверной части
+# Откуда берем рабочий сервер (донор)
 URL_PLAYLIST2 = "http://7d910a3da525.goodstreem.org/playlists/uplist/22825bfdcdb7e2ef359c18b30e40a234/playlist.m3u8"
 
-# 1 = брать сервер из playlist2 (с fallback)
-# 2 = брать пользовательский домен USER_DOMAIN
+# 1 = брать домен из playlist2; 2 = брать из USER_DOMAIN
 SERVER_SOURCE = 1
 
-# Пользовательский домен (если SERVER_SOURCE = 2)
+# Используется, если SERVER_SOURCE = 2
 USER_DOMAIN = "megogo.xyz"
 
-# Резервный сервер (если playlist2 не скачался и кэша нет)
-# Сюда впишите последний известный РАБОЧИЙ хост (например, из логов)
-FALLBACK_SERVER_HOST = "7d910a3da525.goodstreem.org"
+# Резервный домен, если всё остальное недоступно
+FALLBACK_BASE_DOMAIN = "siauliairsavlt.com"
 
 OUTPUT_FILE = "playlist3.m3u8"
-CACHE_FILE = "playlist2_cache.m3u8"
+CACHE_FILE = "domain_cache.txt"
 REQUEST_TIMEOUT = 20
 
 # =========================================================
-# ЛОГИКА
+# 🛠 СЛУЖЕБНЫЕ ФУНКЦИИ
 # =========================================================
 
 def log(msg): print(f"[INFO] {msg}")
@@ -44,75 +42,97 @@ def warn(msg): print(f"[WARN] {msg}")
 
 def download_text(url):
     log(f"Скачивание: {url}")
-    # Добавлен verify=False для обхода ошибок сертификатов
     response = requests.get(url, timeout=REQUEST_TIMEOUT, verify=False)
     response.raise_for_status()
     return response.text.strip()
 
+def get_base_domain(host):
+    """
+    Извлекает последние две части хоста (базовый домен).
+    Пример: '7d910a3da525.goodstreem.org' -> 'goodstreem.org'
+    """
+    if not host: return None
+    parts = host.split('.')
+    if len(parts) >= 2:
+        return ".".join(parts[-2:])
+    return host
+
 def extract_host_from_m3u(text):
-    """Находит первую ссылку в плейлисте и вырезает из неё хост."""
+    """Находит первую ссылку в плейлисте и возвращает её хост."""
     for line in text.splitlines():
         line = line.strip()
         if line.startswith("http"):
-            parsed = urlparse(line)
-            return parsed.netloc
+            return urlparse(line).netloc
     return None
+
+# =========================================================
+# 🚀 ОСНОВНАЯ ЛОГИКА
+# =========================================================
 
 def main():
     try:
         # 1. Загружаем основу (Playlist 1)
         playlist1_content = download_text(URL_PLAYLIST1)
-        
-        # Находим старый сервер в Playlist 1, чтобы потом его заменить
-        old_host = extract_host_from_m3u(playlist1_content)
-        if not old_host:
-            raise ValueError("Не удалось найти сервер в Playlist 1")
-        
-        # 2. Определяем новый сервер
-        new_host = None
+        log("Playlist 1 загружен.")
+
+        # 2. Определяем новый БАЗОВЫЙ домен
+        new_base_domain = None
 
         if SERVER_SOURCE == 1:
             try:
-                # Пробуем скачать Playlist 2
-                playlist2_content = download_text(URL_PLAYLIST2)
-                new_host = extract_host_from_m3u(playlist2_content)
+                # Пытаемся получить донорский домен из Playlist 2
+                donor_full_host = extract_host_from_m3u(download_text(URL_PLAYLIST2))
+                new_base_domain = get_base_domain(donor_full_host)
                 
-                # Если скачали успешно — сохраняем в кэш
-                if new_host:
+                if new_base_domain:
                     with open(CACHE_FILE, "w", encoding="utf-8") as f:
-                        f.write(new_host)
+                        f.write(new_base_domain)
+                    log(f"Новый базовый домен из Playlist 2: {new_base_domain}")
             except Exception as e:
-                warn(f"Ошибка загрузки Playlist 2: {e}")
-                # Если не скачалось — ищем в кэше
+                warn(f"Не удалось получить Playlist 2: {e}")
+                # Пробуем взять из кэша
                 if os.path.exists(CACHE_FILE):
                     with open(CACHE_FILE, "r", encoding="utf-8") as f:
-                        new_host = f.read().strip()
-                        log(f"Используем сервер из КЭША: {new_host}")
+                        new_base_domain = f.read().strip()
+                        log(f"Используем домен из КЭША: {new_base_domain}")
                 else:
-                    new_host = FALLBACK_SERVER_HOST
-                    warn(f"Кэш пуст. Используем FALLBACK: {new_host}")
-
+                    new_base_domain = FALLBACK_BASE_DOMAIN
+                    warn(f"Кэш пуст. Используем FALLBACK: {new_base_domain}")
         else:
-            # SERVER_SOURCE == 2 (Пользовательский домен)
-            # Берем субдомен из первой ссылки Playlist 1 и клеим к USER_DOMAIN
-            parts = old_host.split('.')
-            subdomain = parts[0] if len(parts) > 1 else ""
-            new_host = f"{subdomain}.{USER_DOMAIN}" if subdomain else USER_DOMAIN
-            log(f"Используем пользовательский домен: {new_host}")
+            new_base_domain = USER_DOMAIN
+            log(f"Используем пользовательский домен: {new_base_domain}")
 
-        # 3. Массовая замена
-        log(f"Заменяем {old_host} -> {new_host}")
-        # Заменяем только хост, чтобы не повредить пути
-        final_content = playlist1_content.replace(old_host, new_host)
+        # 3. Обработка каждой строки плейлиста
+        final_lines = []
+        for line in playlist1_content.splitlines():
+            line_stripped = line.strip()
+            
+            if line_stripped.startswith("http"):
+                parsed = urlparse(line_stripped)
+                original_full_host = parsed.netloc # например, 'riusiepq.alfalt.fun'
+                
+                # Выделяем субдомен (всё, что слева от последних двух частей)
+                parts = original_full_host.split('.')
+                if len(parts) > 2:
+                    subdomain = ".".join(parts[:-2]) # 'riusiepq'
+                    new_host = f"{subdomain}.{new_base_domain}"
+                else:
+                    new_host = new_base_domain
+                
+                # Заменяем только хост в оригинальной ссылке
+                new_line = line_stripped.replace(original_full_host, new_host)
+                final_lines.append(new_line)
+            else:
+                final_lines.append(line)
 
-        # 4. Сохранение
+        # 4. Сохранение итогового файла
         with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-            f.write(final_content)
+            f.write("\n".join(final_lines) + "\n")
         
-        log(f"✅ Готово! Файл {OUTPUT_FILE} успешно создан.")
+        log(f"✅ Успех! Сгенерирован {OUTPUT_FILE}")
 
     except Exception as e:
-        print(f"[ERROR] {e}")
+        print(f"[ERROR] Критическая ошибка: {e}")
         sys.exit(1)
 
 if __name__ == "__main__":
