@@ -1415,7 +1415,7 @@ http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/18171/index.m3u
 #EXTINF:0 tvg-rec="0",Триколор Шерлок Холмс и доктор Ватсон
 #EXTGRP:Кино
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/18126/index.m3u8
-#EXTINF:0 tvg-rec="0",Триколор След
+#EXTINF:0 tvg-rec="0",Триколор Загадочные убийства Агаты Кристи
 #EXTGRP:Кино
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/18127/index.m3u8
 #EXTINF:0 tvg-rec="0",Триколор Ментовские войны
@@ -1673,7 +1673,7 @@ http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/31704/index.m3u
 #EXTINF:0 tvg-rec="0",Z!Fun HD
 #EXTGRP:Кино
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/31706/index.m3u8
-#EXTINF:0 tvg-rec="0",StrahTV Horror HD
+#EXTINF:0 tvg-rec="0",Ужас ТВ HD
 #EXTGRP:Кино
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/31708/index.m3u8
 #EXTINF:0 tvg-rec="0",StrahTV Байки из склепа
@@ -1754,9 +1754,6 @@ http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/2130/index.m3u8
 #EXTINF:0 tvg-rec="3",SONGTV Россия HD
 #EXTGRP:Музыка
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/6394/index.m3u8
-#EXTINF:0 tvg-rec="7",MTV Live HD
-#EXTGRP:Музыка
-http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/221/index.m3u8
 #EXTINF:0 tvg-rec="3",Жара HD
 #EXTGRP:Музыка
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/2129/index.m3u8
@@ -1886,7 +1883,7 @@ http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/13030/index.m3u
 #EXTINF:0 tvg-rec="0",MTV Classic
 #EXTGRP:Музыка
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/19148/index.m3u8
-#EXTINF:0 tvg-rec="0",MTV HD
+#EXTINF:0 tvg-rec="0",MTV US
 #EXTGRP:Музыка
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/19192/index.m3u8
 #EXTINF:0 tvg-rec="0",That's 70s UK
