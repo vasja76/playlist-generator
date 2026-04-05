@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1,Euronews (EN)
+https://euronews-euronews-world-ow-en.globo.com/playlist.m3u8
+#EXTINF:-1,DW English
+https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8
