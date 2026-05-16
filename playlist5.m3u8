@@ -485,7 +485,7 @@ http://vipl.one/hls/d3zwhr58b7mv/476.m3u8
 #EXTINF:0 tvg-id="490" tvg-logo="http://epg.cdntv.online/img/490.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Музыкальные", MCM Top
 #EXTGRP:Музыкальные
 http://vipl.one/hls/d3zwhr58b7mv/490.m3u8
-#EXTINF:0 tvg-id="491" tvg-logo="http://epg.cdntv.online/img/491.png" group-title="Музыкальные", Mezzo
+#EXTINF:0 tvg-id="491" tvg-logo="http://epg.cdntv.online/img/491.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Музыкальные", Mezzo
 #EXTGRP:Музыкальные
 http://vipl.one/hls/d3zwhr58b7mv/491.m3u8
 #EXTINF:0 tvg-id="496" tvg-logo="http://epg.cdntv.online/img/496.png" group-title="Музыкальные", Музыка Первого
@@ -1214,9 +1214,6 @@ http://vipl.one/hls/d3zwhr58b7mv/1671.m3u8
 #EXTINF:0 tvg-id="1675" tvg-logo="http://epg.cdntv.online/img/1675.png" group-title="Кинозалы", Сити Эдем - КиноЭкшен
 #EXTGRP:Кинозалы
 http://vipl.one/hls/d3zwhr58b7mv/1675.m3u8
-#EXTINF:0 tvg-id="1676" tvg-logo="http://epg.cdntv.online/img/1676.png" group-title="Кинозалы", Сити Эдем - КиноМистика
-#EXTGRP:Кинозалы
-http://vipl.one/hls/d3zwhr58b7mv/1676.m3u8
 #EXTINF:0 tvg-id="1678" tvg-logo="http://epg.cdntv.online/img/1678.png" group-title="Развлекательные", Лапки LIVE
 #EXTGRP:Развлекательные
 http://vipl.one/hls/d3zwhr58b7mv/1678.m3u8
