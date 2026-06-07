@@ -461,7 +461,7 @@ http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/19177/index.m3u
 #EXTINF:0 tvg-rec="0",BBC Alba UK
 #EXTGRP:Новостные
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/19179/index.m3u8
-#EXTINF:0 tvg-rec="0",BBC First HD UK
+#EXTINF:0 tvg-rec="0",BBC HD NL
 #EXTGRP:Новостные
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/19181/index.m3u8
 #EXTINF:0 tvg-rec="0",BBC Scotland HD UK
@@ -761,7 +761,7 @@ http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/726/index.m3u8
 #EXTINF:0 tvg-rec="3",Индия
 #EXTGRP:Кино
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/1001/index.m3u8
-#EXTINF:0 tvg-rec="3",FilmBox
+#EXTINF:0 tvg-rec="3",FilmBox+ One
 #EXTGRP:Кино
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/1071/index.m3u8
 #EXTINF:0 tvg-rec="7",Мир Сериала
@@ -3251,7 +3251,7 @@ http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/31802/index.m3u
 #EXTINF:0 tvg-rec="0",FilmUA Drama UA
 #EXTGRP:Украина | Українські
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/31805/index.m3u8
-#EXTINF:0 tvg-rec="0",FilmBox ArtHouse UA
+#EXTINF:0 tvg-rec="0",FilmBox+ Festival UA
 #EXTGRP:Украина | Українські
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/31807/index.m3u8
 #EXTINF:0 tvg-rec="0",FilmUA Live HD UA
