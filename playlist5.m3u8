@@ -428,9 +428,6 @@ https://b1.vipl.one/hls/v2cam6fkzte9/399.m3u8
 #EXTINF:0 tvg-id="406" tvg-logo="http://epg.cdntv.online/img/406.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Кино", Comedy Central
 #EXTGRP:Кино
 https://b1.vipl.one/hls/v2cam6fkzte9/406.m3u8
-#EXTINF:0 tvg-id="412" tvg-logo="http://epg.cdntv.online/img/412.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Познавательные", Конный Мир
-#EXTGRP:Познавательные
-https://b1.vipl.one/hls/v2cam6fkzte9/412.m3u8
 #EXTINF:0 tvg-id="436" tvg-logo="http://epg.cdntv.online/img/436.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Новостные", 360 Новости
 #EXTGRP:Новостные
 https://b1.vipl.one/hls/v2cam6fkzte9/436.m3u8
