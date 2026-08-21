@@ -92,3 +92,6 @@ http://vipl.one/hls/v2cam6fkzte9/996.m3u8
 #EXTINF:0 tvg-id="1688" tvg-logo="http://epg.cdntv.online/img/1688.png" group-title="Взрослые", EroLuxe Cinema
 #EXTGRP:Взрослые
 http://vipl.one/hls/v2cam6fkzte9/1688.m3u8
+#EXTINF:0 tvg-id="1698" tvg-logo="http://epg.cdntv.online/img/1698.png" group-title="Взрослые", EroLuxe Russian Teens
+#EXTGRP:Взрослые
+http://vipl.one/hls/v2cam6fkzte9/1698.m3u8
