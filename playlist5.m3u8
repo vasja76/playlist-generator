@@ -635,9 +635,6 @@ https://b1.vipl.one/hls/v2cam6fkzte9/640.m3u8
 #EXTINF:0 tvg-id="641" tvg-logo="http://epg.cdntv.online/img/641.png" group-title="Плюсовые", Россия 1 (+8)
 #EXTGRP:Плюсовые
 https://b1.vipl.one/hls/v2cam6fkzte9/641.m3u8
-#EXTINF:0 tvg-id="642" tvg-logo="http://epg.cdntv.online/img/642.png" group-title="Плюсовые", Россия 1 (+9)
-#EXTGRP:Плюсовые
-https://b1.vipl.one/hls/v2cam6fkzte9/642.m3u8
 #EXTINF:0 tvg-id="647" tvg-logo="http://epg.cdntv.online/img/647.png" group-title="Плюсовые", Россия К (+2)
 #EXTGRP:Плюсовые
 https://b1.vipl.one/hls/v2cam6fkzte9/647.m3u8
@@ -1028,9 +1025,6 @@ https://b1.vipl.one/hls/v2cam6fkzte9/1544.m3u8
 #EXTINF:0 tvg-id="1545" tvg-logo="http://epg.cdntv.online/img/1545.png" group-title="Кинозалы", MS Animated
 #EXTGRP:Кинозалы
 https://b1.vipl.one/hls/v2cam6fkzte9/1545.m3u8
-#EXTINF:0 tvg-id="1558" tvg-logo="http://epg.cdntv.online/img/1558.png" group-title="Кинозалы", Clarity4K Netflix
-#EXTGRP:Кинозалы
-https://b1.vipl.one/hls/v2cam6fkzte9/1558.m3u8
 #EXTINF:0 tvg-id="1559" tvg-logo="http://epg.cdntv.online/img/1559.png" group-title="Кинозалы", Clarity4K Кино СССР
 #EXTGRP:Кинозалы
 https://b1.vipl.one/hls/v2cam6fkzte9/1559.m3u8
@@ -1625,3 +1619,6 @@ https://b1.vipl.one/hls/v2cam6fkzte9/2298.m3u8
 #EXTINF:0 tvg-id="2300" tvg-logo="http://epg.cdntv.online/img/2300.png" group-title="Кинозалы", CineMan Дубляж СССР
 #EXTGRP:Кинозалы
 https://b1.vipl.one/hls/v2cam6fkzte9/2300.m3u8
+#EXTINF:0 tvg-id="2302" tvg-logo="http://epg.cdntv.online/img/2302.png" group-title="Кинозалы", LIBERTY Планктон
+#EXTGRP:Кинозалы
+https://b1.vipl.one/hls/v2cam6fkzte9/2302.m3u8
