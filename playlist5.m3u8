@@ -785,6 +785,9 @@ https://b1.vipl.one/hls/v2cam6fkzte9/874.m3u8
 #EXTINF:0 tvg-id="875" tvg-logo="http://epg.cdntv.online/img/875.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Беларусь", СТВ Беларусь
 #EXTGRP:Беларусь
 https://b1.vipl.one/hls/v2cam6fkzte9/875.m3u8
+#EXTINF:0 tvg-id="877" tvg-logo="http://epg.cdntv.online/img/877.png" group-title="Кинозалы", MGM
+#EXTGRP:Кинозалы
+https://b1.vipl.one/hls/v2cam6fkzte9/877.m3u8
 #EXTINF:0 tvg-id="883" tvg-logo="http://epg.cdntv.online/img/883.png" group-title="Кинозалы", Кино 1 INT
 #EXTGRP:Кинозалы
 https://b1.vipl.one/hls/v2cam6fkzte9/883.m3u8
