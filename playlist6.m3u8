@@ -89,6 +89,9 @@ https://b1.vipl.one/hls/v2cam6fkzte9/785.m3u8
 #EXTINF:0 tvg-id="996" tvg-logo="http://epg.cdntv.online/img/996.png" group-title="Познавательные", Вопросы и ответы
 #EXTGRP:Познавательные
 https://b1.vipl.one/hls/v2cam6fkzte9/996.m3u8
+#EXTINF:0 tvg-id="1424" tvg-logo="http://epg.cdntv.online/img/1424.png" group-title="Взрослые", xxx
+#EXTGRP:Взрослые
+https://b1.vipl.one/hls/v2cam6fkzte9/1424.m3u8
 #EXTINF:0 tvg-id="1688" tvg-logo="http://epg.cdntv.online/img/1688.png" group-title="Взрослые", EroLuxe Cinema
 #EXTGRP:Взрослые
 https://b1.vipl.one/hls/v2cam6fkzte9/1688.m3u8
