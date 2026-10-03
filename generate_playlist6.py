@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import os
 import re
+from datetime import datetime
 
 # === Настройки ===
 INPUT_FILE = "playlist5.m3u8"   # Исходный плейлист
@@ -51,6 +52,9 @@ CHANNELS = [
 if not os.path.isfile(INPUT_FILE):
     print(f"Error: {INPUT_FILE} не найден. Сначала сформируйте playlist5.")
     exit(1)
+    
+# === Формируем дату для первой строки плейлиста ===
+playlist_date = datetime.now().strftime("%d.%m.%Y %H:%M")
 
 # === Чтение файла ===
 with open(INPUT_FILE, "r", encoding="utf-8") as f:
@@ -65,6 +69,9 @@ while i < len(lines):
     # Заголовок M3U
     if i == 0 and line.startswith("#EXTM3U"):
         filtered_lines.append(line)
+        # Первый элемент/канал плейлиста - дата
+        filtered_lines.append(f"#EXTINF:-1,Дата формирования: {playlist_date}")
+        filtered_lines.append("https://raw.githubusercontent.com/vasja76/playlist-generator/main/playlist6.m3u8")
 
     # Поиск строк каналов
     elif line.startswith("#EXTINF"):
