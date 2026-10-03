@@ -43,7 +43,8 @@ CHANNELS = [
     "Интер",
     "Русская ночь",
     "EroLuxe Cinema",
-    "EroLuxe Russian Teens"
+    "EroLuxe Russian Teens",
+    "xxx"
 ]
 
 # === Проверка существования playlist5 ===
