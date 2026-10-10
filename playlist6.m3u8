@@ -1,5 +1,5 @@
 #EXTM3U url-tvg="http://epg.cdntv.online/full.xml.gz"
-#EXTINF:0,Дата формирования: 07.10.2026 10:19
+#EXTINF:0,Дата формирования: 10.10.2026 10:18
 https://raw.githubusercontent.com/vasja76/playlist-generator/main/playlist6.m3u8
 #EXTINF:0 tvg-id="1" tvg-logo="http://epg.cdntv.online/img/1.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Федеральные", Первый канал
 #EXTGRP:Федеральные
