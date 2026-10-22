@@ -821,6 +821,9 @@ https://b1.vipl.one/hls/v2cam6fkzte9/1027.m3u8
 #EXTINF:0 tvg-id="1030" tvg-logo="http://epg.cdntv.online/img/1030.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Кино", КиноСат
 #EXTGRP:Кино
 https://b1.vipl.one/hls/v2cam6fkzte9/1030.m3u8
+#EXTINF:0 tvg-id="1095" tvg-logo="http://epg.cdntv.online/img/1095.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Кино", Мосфильм.Золотая коллекция
+#EXTGRP:Кино
+https://b1.vipl.one/hls/v2cam6fkzte9/1095.m3u8
 #EXTINF:0 tvg-id="1097" tvg-logo="http://epg.cdntv.online/img/1097.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Развлекательные", Перец International
 #EXTGRP:Развлекательные
 https://b1.vipl.one/hls/v2cam6fkzte9/1097.m3u8
@@ -1637,3 +1640,6 @@ https://b1.vipl.one/hls/v2cam6fkzte9/2331.m3u8
 #EXTINF:0 tvg-id="2332" tvg-logo="http://epg.cdntv.online/img/2332.png" group-title="Кинозалы", KBC-Новогодний
 #EXTGRP:Кинозалы
 https://b1.vipl.one/hls/v2cam6fkzte9/2332.m3u8
+#EXTINF:0 tvg-id="2334" tvg-logo="http://epg.cdntv.online/img/2334.png" group-title="Музыкальные", EQVE Radio
+#EXTGRP:Музыкальные
+https://b1.vipl.one/hls/v2cam6fkzte9/2334.m3u8
