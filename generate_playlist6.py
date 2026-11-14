@@ -72,7 +72,7 @@ while i < len(lines):
         filtered_lines.append(line)
         # Первый элемент/канал плейлиста - дата
         filtered_lines.append(f"#EXTINF:0,Дата формирования: {playlist_date}")
-        filtered_lines.append("https://raw.githubusercontent.com/vasja76/playlist-generator/main/playlist6.m3u8")
+        # filtered_lines.append("https://raw.githubusercontent.com/vasja76/playlist-generator/main/playlist6.m3u8")
 
     # Поиск строк каналов
     elif line.startswith("#EXTINF"):
