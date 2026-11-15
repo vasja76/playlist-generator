@@ -43,7 +43,7 @@ CHANNELS = [
     "К1",
     "К2",
     "Интер",
-    "Русская ночь",
+    #"Русская ночь",
     "EroLuxe Cinema",
     "EroLuxe Russian Teens",
     "xxx"
