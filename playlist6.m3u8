@@ -1,5 +1,5 @@
 #EXTM3U url-tvg="http://epg.cdntv.online/full.xml.gz"
-#EXTINF:0,Дата формирования: 14.11.2026 20:02
+#EXTINF:0,Дата формирования: 15.11.2026 22:30
 https://raw.githubusercontent.com/vasja76/playlist-generator/main/date.m3u8
 #EXTINF:0 tvg-id="1" tvg-logo="http://epg.cdntv.online/img/1.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Федеральные", Первый канал
 #EXTGRP:Федеральные
@@ -79,9 +79,6 @@ https://b1.vipl.one/hls/v2cam6fkzte9/682.m3u8
 #EXTINF:0 tvg-id="688" tvg-logo="http://epg.cdntv.online/img/688.png" group-title="Плюсовые", Че (+2)
 #EXTGRP:Плюсовые
 https://b1.vipl.one/hls/v2cam6fkzte9/688.m3u8
-#EXTINF:0 tvg-id="726" tvg-logo="http://epg.cdntv.online/img/726.png" group-title="Взрослые", Русская ночь
-#EXTGRP:Взрослые
-https://b1.vipl.one/hls/v2cam6fkzte9/726.m3u8
 #EXTINF:0 tvg-id="770" tvg-logo="http://epg.cdntv.online/img/770.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Беларусь", Беларусь 1
 #EXTGRP:Беларусь
 https://b1.vipl.one/hls/v2cam6fkzte9/770.m3u8
