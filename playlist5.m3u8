@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="http://epg.cdntv.online/full.xml.gz"
+#EXTM3U url-tvg="http://epg.cdntv.online/lite.xml.gz"
 #EXTINF:0 tvg-id="1" tvg-logo="http://epg.cdntv.online/img/1.png" catchup="shift" catchup-days="3" timeshift="3" group-title="Федеральные", Первый канал
 #EXTGRP:Федеральные
 https://b1.vipl.one/hls/v2cam6fkzte9/1.m3u8
@@ -788,9 +788,6 @@ https://b1.vipl.one/hls/v2cam6fkzte9/875.m3u8
 #EXTINF:0 tvg-id="883" tvg-logo="http://epg.cdntv.online/img/883.png" group-title="Кинозалы", Кино 1 INT
 #EXTGRP:Кинозалы
 https://b1.vipl.one/hls/v2cam6fkzte9/883.m3u8
-#EXTINF:0 tvg-id="886" tvg-logo="http://epg.cdntv.online/img/886.png" group-title="Кинозалы", KINO 24
-#EXTGRP:Кинозалы
-https://b1.vipl.one/hls/v2cam6fkzte9/886.m3u8
 #EXTINF:0 tvg-id="897" tvg-logo="http://epg.cdntv.online/img/897.png" group-title="Кинозалы", Маша и Медведь
 #EXTGRP:Кинозалы
 https://b1.vipl.one/hls/v2cam6fkzte9/897.m3u8
