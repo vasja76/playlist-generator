@@ -332,7 +332,7 @@ http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/505/index.m3u8
 #EXTINF:0 tvg-rec="7",РЕН ТВ HD orig
 #EXTGRP:Общие
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/9002/index.m3u8
-#EXTINF:0 tvg-rec="3",Gametoon HD
+#EXTINF:0 tvg-rec="3",Gametoon
 #EXTGRP:Общие
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/5049/index.m3u8
 #EXTINF:0 tvg-rec="7",НТВ HD orig
@@ -365,7 +365,7 @@ http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/9100/index.m3u8
 #EXTINF:0 tvg-rec="7",Че! orig
 #EXTGRP:Общие
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/9101/index.m3u8
-#EXTINF:0 tvg-rec="7",RTVi HD orig
+#EXTINF:0 tvg-rec="7",RTVi orig
 #EXTGRP:Общие
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/9102/index.m3u8
 #EXTINF:0 tvg-rec="7",Суббота! orig
@@ -929,7 +929,7 @@ http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/2064/index.m3u8
 #EXTINF:0 tvg-rec="7",NHK World HD JP
 #EXTGRP:Новостные
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/729/index.m3u8
-#EXTINF:0 tvg-rec="7",РБК HD orig
+#EXTINF:0 tvg-rec="7",РБК orig
 #EXTGRP:Новостные
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/9213/index.m3u8
 #EXTINF:0 tvg-rec="7",CGTN
@@ -3104,9 +3104,6 @@ http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/31560/index.m3u
 #EXTINF:0 tvg-rec="0",1HD Music Television HD
 #EXTGRP:Музыка
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/17038/index.m3u8
-#EXTINF:0 tvg-rec="0",Горящий камин
-#EXTGRP:Музыка
-http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/16070/index.m3u8
 #EXTINF:0 tvg-rec="0",Europa Plus TV HD
 #EXTGRP:Музыка
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/20029/index.m3u8
@@ -3395,7 +3392,7 @@ http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/16073/index.m3u
 #EXTINF:0 tvg-rec="0",Bridge Фрэш
 #EXTGRP:Музыка
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/17045/index.m3u8
-#EXTINF:0 tvg-rec="0",Deluxe Music HD DE
+#EXTINF:0 tvg-rec="0",Deluxe Music FHD DE
 #EXTGRP:Музыка
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/17047/index.m3u8
 #EXTINF:0 tvg-rec="0",Радио Хит HD (Орск)
@@ -3461,7 +3458,7 @@ http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/19148/index.m3u
 #EXTINF:0 tvg-rec="0",MTV US
 #EXTGRP:Музыка
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/19192/index.m3u8
-#EXTINF:0 tvg-rec="0",NOW 70s UK
+#EXTINF:0 tvg-rec="0",That's 70s UK
 #EXTGRP:Музыка
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/19194/index.m3u8
 #EXTINF:0 tvg-rec="0",Now 80s UK
@@ -4454,7 +4451,7 @@ http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/16089/index.m3u
 #EXTINF:0 tvg-rec="0",Neox HD ES
 #EXTGRP:Развлекательные
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/31881/index.m3u8
-#EXTINF:0 tvg-rec="0",M+ Vacaciones HD ES
+#EXTINF:0 tvg-rec="0",M+ Navidad HD ES
 #EXTGRP:Развлекательные
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/31884/index.m3u8
 #EXTINF:0 tvg-rec="0",СТС +0 (Липецк)
@@ -4529,7 +4526,7 @@ http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/244/index.m3u8
 #EXTINF:0 tvg-rec="3",Dorcel TV HD
 #EXTGRP:Взрослые
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/245/index.m3u8
-#EXTINF:0 tvg-rec="1",Vivid Red HD
+#EXTINF:0 tvg-rec="1",Vivid Red
 #EXTGRP:Взрослые
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/2162/index.m3u8
 #EXTINF:0 tvg-rec="3",Exxxotica HD
@@ -4883,10 +4880,7 @@ http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/11068/index.m3u
 #EXTINF:0 tvg-rec="0",VF Cartoon 18+
 #EXTGRP:Взрослые
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/11117/index.m3u8
-#EXTINF:0 tvg-rec="0",Alba XXX 1
-#EXTGRP:Взрослые
-http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/12106/index.m3u8
-#EXTINF:0 tvg-rec="0",Exotic 4k
+#EXTINF:0 tvg-rec="0",Exotic4K HD
 #EXTGRP:Взрослые
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/12107/index.m3u8
 #EXTINF:0 tvg-rec="0",Euro Girls On Girls
@@ -4901,9 +4895,6 @@ http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/12110/index.m3u
 #EXTINF:0 tvg-rec="0",DP Fanatics
 #EXTGRP:Взрослые
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/12111/index.m3u8
-#EXTINF:0 tvg-rec="0",Brazzers TV Europe HD
-#EXTGRP:Взрослые
-http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/12113/index.m3u8
 #EXTINF:0 tvg-rec="0",SuperOne
 #EXTGRP:Взрослые
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/12121/index.m3u8
@@ -5012,7 +5003,7 @@ http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/12163/index.m3u
 #EXTINF:0 tvg-rec="0",BBC Pie
 #EXTGRP:Взрослые
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/12164/index.m3u8
-#EXTINF:0 tvg-rec="0",FTV Girls HD
+#EXTINF:0 tvg-rec="0",Barely Legal TV
 #EXTGRP:Взрослые
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/12165/index.m3u8
 #EXTINF:0 tvg-rec="0",Bang POV
@@ -5048,7 +5039,7 @@ http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/12188/index.m3u
 #EXTINF:0 tvg-rec="0",Anal Mom
 #EXTGRP:Взрослые
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/12189/index.m3u8
-#EXTINF:0 tvg-rec="0",Anal 4K
+#EXTINF:0 tvg-rec="0",Anal 4K HD
 #EXTGRP:Взрослые
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/12190/index.m3u8
 #EXTINF:0 tvg-rec="0",Amateur Boxxx
@@ -5159,7 +5150,7 @@ http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/10036/index.m3u
 #EXTINF:0 tvg-rec="0",Спорт ТВ HD BY
 #EXTGRP:Беларусь | Беларускія
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/32004/index.m3u8
-#EXTINF:0 tvg-rec="0",Беларусь 4 HD (Брест) BY
+#EXTINF:0 tvg-rec="0",Беларусь 4 (Брест) BY
 #EXTGRP:Беларусь | Беларускія
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/32165/index.m3u8
 #EXTINF:0 tvg-rec="0",РТР Беларусь HD BY
@@ -5168,7 +5159,7 @@ http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/32167/index.m3u
 #EXTINF:0 tvg-rec="0",Kinogrande HD UA
 #EXTGRP:Украина | Українські
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/15007/index.m3u8
-#EXTINF:0 tvg-rec="0",Сфера ТВ HD UA
+#EXTINF:0 tvg-rec="0",Сфера ТВ UA
 #EXTGRP:Украина | Українські
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/15008/index.m3u8
 #EXTINF:0 tvg-rec="0",НТН HD UA
@@ -5183,9 +5174,6 @@ http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/945/index.m3u8
 #EXTINF:0 tvg-rec="3",24 Канал FHD UA
 #EXTGRP:Украина | Українські
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/951/index.m3u8
-#EXTINF:0 tvg-rec="3",Надiя ТВ UA
-#EXTGRP:Украина | Українські
-http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/956/index.m3u8
 #EXTINF:0 tvg-rec="3",EU Music HD UA
 #EXTGRP:Украина | Українські
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/925/index.m3u8
@@ -5225,7 +5213,7 @@ http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/981/index.m3u8
 #EXTINF:0 tvg-rec="3",СК1 UA
 #EXTGRP:Украина | Українські
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/982/index.m3u8
-#EXTINF:0 tvg-rec="3",1+1 Україна FHD UA
+#EXTINF:0 tvg-rec="3",1+1 Україна HD UA
 #EXTGRP:Украина | Українські
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/987/index.m3u8
 #EXTINF:0 tvg-rec="3",Star Cinema HD UA
@@ -5504,7 +5492,7 @@ http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/31780/index.m3u
 #EXTINF:0 tvg-rec="0",Київ HD UA
 #EXTGRP:Украина | Українські
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/31781/index.m3u8
-#EXTINF:0 tvg-rec="0",1+1 Україна HD UA
+#EXTINF:0 tvg-rec="0",1+1 Україна UA
 #EXTGRP:Украина | Українські
 http://riusiepq.siauliairsavlt.com/iptv/FDKTMVK4RX3EFGUXLGFCCWZP/31784/index.m3u8
 #EXTINF:0 tvg-rec="0",11 Канал HD (Дніпро) UA
